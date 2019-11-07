@@ -1,0 +1,125 @@
+9.5314 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020265C22DA0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020265D29470>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.5316 	EXP 	window1: recordFrameIntervals = False
+9.6976 	EXP 	window1: recordFrameIntervals = True
+9.8803 	EXP 	window1: recordFrameIntervals = False
+10.2873 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2959 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='Click here to continue.', units='height', win=Window(...), wrapWidth=1)
+10.3069 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Here is a video example.', units='height', win=Window(...), wrapWidth=1)
+10.3725 	EXP 	Created one = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='one', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.4344 	EXP 	Created two = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='two', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.5041 	EXP 	Created three = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='three', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.5774 	EXP 	Created seven = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='seven', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6564 	EXP 	Created eight = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eight', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.7332 	EXP 	Created nine = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='nine', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.8052 	EXP 	Created four = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='four', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.8878 	EXP 	Created five = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='five', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.9636 	EXP 	Created six = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='six', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.0372 	EXP 	Created ten = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ten', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.1154 	EXP 	Created eleven = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eleven', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.1985 	EXP 	Created twelve = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='twelve', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.2435 	EXP 	instruction_text: autoDraw = True
+11.2435 	EXP 	text_2: autoDraw = True
+12.2345 	DATA 	Mouse: Left button down, pos=(862,80)
+12.2487 	EXP 	instruction_text: autoDraw = False
+12.2487 	EXP 	text_2: autoDraw = False
+12.2487 	EXP 	text: autoDraw = True
+12.3164 	DATA 	Mouse:  Left button up, pos=(862,80)
+15.8197 	DATA 	Mouse: Left button down, pos=(1040,437)
+16.0322 	DATA 	Mouse:  Left button up, pos=(1040,437)
+16.0434 	EXP 	text: autoDraw = False
+16.0434 	EXP 	one: autoDraw = True
+16.0434 	EXP 	two: autoDraw = True
+16.0434 	EXP 	three: autoDraw = True
+16.0434 	EXP 	seven: autoDraw = True
+16.0434 	EXP 	eight: autoDraw = True
+16.0434 	EXP 	nine: autoDraw = True
+16.0434 	EXP 	four: autoDraw = True
+16.0434 	EXP 	five: autoDraw = True
+16.0434 	EXP 	six: autoDraw = True
+16.0434 	EXP 	ten: autoDraw = True
+16.0434 	EXP 	eleven: autoDraw = True
+16.0434 	EXP 	twelve: autoDraw = True
+16.9730 	DATA 	Mouse: Left button down, pos=(649,902)
+17.0133 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.0321 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.0502 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.0675 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.0906 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.1121 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.1327 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.1523 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.1710 	EXP 	three: pos = array([-0.28796296,  0.33518519])
+17.1896 	EXP 	three: pos = array([-0.28240741,  0.33333333])
+17.2051 	EXP 	three: pos = array([-0.26388889,  0.32314815])
+17.2209 	EXP 	three: pos = array([-0.23888889,  0.30925926])
+17.2375 	EXP 	three: pos = array([-0.21203704,  0.2962963 ])
+17.2543 	EXP 	three: pos = array([-0.17222222,  0.27314815])
+17.2714 	EXP 	three: pos = array([-0.15185185,  0.25833333])
+17.2894 	EXP 	three: pos = array([-0.13518519,  0.2462963 ])
+17.3131 	EXP 	three: pos = array([-0.10092593,  0.22037037])
+17.3361 	EXP 	three: pos = array([-0.05     ,  0.1712963])
+17.3569 	EXP 	three: pos = array([-0.01296296,  0.13796296])
+17.3765 	EXP 	three: pos = array([0.01388889, 0.10740741])
+17.3955 	EXP 	three: pos = array([0.03055556, 0.08240741])
+17.4175 	EXP 	three: pos = array([0.0462963 , 0.05185185])
+17.4439 	EXP 	three: pos = array([0.05833333, 0.00833333])
+17.4616 	EXP 	three: pos = array([ 0.07037037, -0.0462963 ])
+17.4789 	EXP 	three: pos = array([ 0.07037037, -0.06111111])
+17.4998 	EXP 	three: pos = array([ 0.07037037, -0.06666667])
+17.5201 	EXP 	three: pos = array([ 0.07037037, -0.07222222])
+17.5466 	EXP 	three: pos = array([ 0.06944444, -0.0787037 ])
+17.5654 	EXP 	three: pos = array([ 0.06759259, -0.08611111])
+17.5835 	EXP 	three: pos = array([ 0.06574074, -0.08888889])
+17.6045 	EXP 	three: pos = array([ 0.06388889, -0.09444444])
+17.6210 	EXP 	three: pos = array([ 0.06203704, -0.09722222])
+17.6375 	EXP 	three: pos = array([ 0.06111111, -0.10185185])
+17.6543 	EXP 	three: pos = array([ 0.06018519, -0.10555556])
+17.6714 	EXP 	three: pos = array([ 0.05925926, -0.10833333])
+17.6719 	DATA 	Mouse:  Left button up, pos=(1023,420)
+18.2412 	DATA 	Mouse: Left button down, pos=(1023,420)
+18.2755 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.2893 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.3055 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.3220 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.3385 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.3577 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.3771 	EXP 	three: pos = array([ 0.05833333, -0.11111111])
+18.3943 	EXP 	three: pos = array([ 0.0537037 , -0.11111111])
+18.4225 	EXP 	three: pos = array([ 0.02962963, -0.11018519])
+18.4445 	EXP 	three: pos = array([-0.06296296, -0.10092593])
+18.4700 	EXP 	three: pos = array([-0.15      , -0.09444444])
+18.4939 	EXP 	three: pos = array([-0.18518519, -0.08981481])
+18.5180 	EXP 	three: pos = array([-0.22314815, -0.08055556])
+18.5437 	EXP 	three: pos = array([-0.28796296, -0.06388889])
+18.5699 	EXP 	three: pos = array([-0.31759259, -0.05740741])
+18.5897 	EXP 	three: pos = array([-0.35740741, -0.04907407])
+18.6066 	EXP 	three: pos = array([-0.38703704, -0.04166667])
+18.6239 	EXP 	three: pos = array([-0.40555556, -0.03796296])
+18.6410 	EXP 	three: pos = array([-0.42685185, -0.03240741])
+18.6556 	EXP 	three: pos = array([-0.44814815, -0.02777778])
+18.6721 	EXP 	three: pos = array([-0.46481481, -0.02222222])
+18.6889 	EXP 	three: pos = array([-0.4787037 , -0.01851852])
+18.7056 	EXP 	three: pos = array([-0.48796296, -0.01388889])
+18.7223 	EXP 	three: pos = array([-0.49351852, -0.01111111])
+18.7392 	EXP 	three: pos = array([-0.49907407, -0.00925926])
+18.7559 	EXP 	three: pos = array([-0.50092593, -0.00740741])
+18.7731 	EXP 	three: pos = array([-0.50185185, -0.00740741])
+18.7919 	EXP 	three: pos = array([-0.50277778, -0.00740741])
+18.8103 	EXP 	three: pos = array([-0.50277778, -0.00740741])
+18.8282 	EXP 	three: pos = array([-0.50277778, -0.00740741])
+18.8481 	EXP 	three: pos = array([-0.50277778, -0.00740741])
+18.8568 	DATA 	Mouse:  Left button up, pos=(417,532)
+19.9107 	DATA 	Mouse: Left button down, pos=(282,884)
+19.9269 	EXP 	one: autoDraw = False
+19.9269 	EXP 	two: autoDraw = False
+19.9269 	EXP 	three: autoDraw = False
+19.9269 	EXP 	seven: autoDraw = False
+19.9269 	EXP 	eight: autoDraw = False
+19.9269 	EXP 	nine: autoDraw = False
+19.9269 	EXP 	four: autoDraw = False
+19.9269 	EXP 	five: autoDraw = False
+19.9269 	EXP 	six: autoDraw = False
+19.9269 	EXP 	ten: autoDraw = False
+19.9269 	EXP 	eleven: autoDraw = False
+19.9269 	EXP 	twelve: autoDraw = False
+20.0512 	EXP 	window1: mouseVisible = True

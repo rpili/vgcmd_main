@@ -1,0 +1,58 @@
+11.7317 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000017E15C6F6D8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000017E15C01D68>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.7317 	EXP 	window1: recordFrameIntervals = False
+11.8979 	EXP 	window1: recordFrameIntervals = True
+12.0817 	EXP 	window1: recordFrameIntervals = False
+12.4463 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4560 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='Click here to continue.', units='height', win=Window(...), wrapWidth=1)
+12.4684 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Here is a video example.', units='height', win=Window(...), wrapWidth=1)
+12.5370 	EXP 	Created one = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='one', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+12.5382 	EXP 	Created two = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='two', opacity=1.0, ori=0.0, pos=array([-0.6,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+12.5701 	EXP 	instruction_text: autoDraw = True
+12.5701 	EXP 	text_2: autoDraw = True
+14.1225 	DATA 	Mouse: Left button down, pos=(796,35)
+14.1339 	EXP 	instruction_text: autoDraw = False
+14.1339 	EXP 	text_2: autoDraw = False
+14.1339 	EXP 	text: autoDraw = True
+14.2180 	DATA 	Mouse:  Left button up, pos=(796,35)
+14.5182 	DATA 	Mouse: Left button down, pos=(983,225)
+14.6081 	DATA 	Mouse:  Left button up, pos=(983,225)
+14.6123 	EXP 	text: autoDraw = False
+14.6123 	EXP 	one: autoDraw = True
+14.6123 	EXP 	two: autoDraw = True
+15.4213 	DATA 	Mouse: Left button down, pos=(612,635)
+15.5198 	DATA 	Mouse:  Left button up, pos=(612,635)
+16.1029 	DATA 	Mouse: Left button down, pos=(235,803)
+16.1189 	EXP 	one: autoDraw = False
+16.1189 	EXP 	two: autoDraw = False
+16.1556 	EXP 	window1: mouseVisible = True
+8.0038 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FF512806D8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FF51211D68>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.0039 	EXP 	window1: recordFrameIntervals = False
+8.1689 	EXP 	window1: recordFrameIntervals = True
+8.3528 	EXP 	window1: recordFrameIntervals = False
+8.7595 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.7681 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='Click here to continue.', units='height', win=Window(...), wrapWidth=1)
+8.7789 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Here is a video example.', units='height', win=Window(...), wrapWidth=1)
+8.8162 	EXP 	Created one = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='one', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+8.8578 	EXP 	Created two = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='two', opacity=1.0, ori=0.0, pos=array([-0.6,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+8.8914 	EXP 	instruction_text: autoDraw = True
+8.8914 	EXP 	text_2: autoDraw = True
+9.6540 	DATA 	Mouse: Left button down, pos=(932,384)
+9.7260 	DATA 	Mouse:  Left button up, pos=(932,384)
+10.3203 	DATA 	Mouse: Left button down, pos=(847,50)
+10.3382 	EXP 	instruction_text: autoDraw = False
+10.3382 	EXP 	text_2: autoDraw = False
+10.3382 	EXP 	text: autoDraw = True
+10.3934 	DATA 	Mouse:  Left button up, pos=(847,50)
+10.9233 	DATA 	Mouse: Left button down, pos=(877,379)
+11.0213 	DATA 	Mouse:  Left button up, pos=(877,379)
+11.0264 	EXP 	text: autoDraw = False
+11.0264 	EXP 	one: autoDraw = True
+11.0264 	EXP 	two: autoDraw = True
+12.0246 	DATA 	Mouse: Left button down, pos=(940,756)
+12.2078 	DATA 	Mouse:  Left button up, pos=(940,756)
+12.2416 	DATA 	Mouse: Left button down, pos=(940,756)
+12.3245 	DATA 	Mouse:  Left button up, pos=(940,756)
+13.1591 	DATA 	Mouse: Left button down, pos=(217,891)
+13.1747 	EXP 	one: autoDraw = False
+13.1747 	EXP 	two: autoDraw = False
+13.3182 	EXP 	window1: mouseVisible = True

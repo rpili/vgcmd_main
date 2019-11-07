@@ -1,0 +1,23 @@
+10.7191 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BEDC6D8B70>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BEDC513748>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.7193 	EXP 	window1: recordFrameIntervals = False
+10.8838 	EXP 	window1: recordFrameIntervals = True
+11.0664 	EXP 	window1: recordFrameIntervals = False
+11.4401 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4492 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='Click here to continue.', units='height', win=Window(...), wrapWidth=1)
+11.4603 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Here is a video example.', units='height', win=Window(...), wrapWidth=1)
+11.4933 	EXP 	instruction_text: autoDraw = True
+11.4933 	EXP 	text_2: autoDraw = True
+12.7736 	DATA 	Mouse: Left button down, pos=(1540,601)
+12.8705 	DATA 	Mouse:  Left button up, pos=(1540,601)
+13.1249 	DATA 	Mouse: Left button down, pos=(1540,601)
+13.2187 	DATA 	Mouse:  Left button up, pos=(1540,601)
+13.2864 	DATA 	Mouse: Left button down, pos=(1540,601)
+13.3593 	DATA 	Mouse:  Left button up, pos=(1540,601)
+13.9715 	DATA 	Mouse: Left button down, pos=(1014,65)
+13.9872 	EXP 	instruction_text: autoDraw = False
+13.9872 	EXP 	text_2: autoDraw = False
+13.9872 	EXP 	text: autoDraw = True
+14.0557 	DATA 	Mouse:  Left button up, pos=(1014,65)
+15.1603 	DATA 	Mouse: Left button down, pos=(1127,482)
+15.1883 	EXP 	text: autoDraw = False
+15.3111 	EXP 	window1: mouseVisible = True

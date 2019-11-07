@@ -1,0 +1,3 @@
+﻿instruction_text.started,instruction_text.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.clicked_name,mouse.started,mouse.stopped,text_2.started,text_2.stopped,text.started,text.stopped,mouse_2.x,mouse_2.y,mouse_2.leftButton,mouse_2.midButton,mouse_2.rightButton,mouse_2.started,mouse_2.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+10.67579029999979,None,-0.14629629629629629,-0.44351851851851853,1,0,0,text_2,0.008200420023058541,None,,,,,,,,,,,,1,001,2019_Nov_03_1838,tg_main,3.2.4,60.02119948706215,
+,,,,,,,,,,10.67579029999979,None,11.636621900001046,None,-0.024074074074074074,-0.03148148148148148,1,0,0,0.011721610000677174,None,1,001,2019_Nov_03_1838,tg_main,3.2.4,60.02119948706215,

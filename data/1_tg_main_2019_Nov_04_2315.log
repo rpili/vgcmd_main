@@ -1,0 +1,1086 @@
+8.3958 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002E8DDF02DD8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002E8DDEF69B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.3959 	EXP 	window1: recordFrameIntervals = False
+8.5600 	EXP 	window1: recordFrameIntervals = True
+8.7456 	EXP 	window1: recordFrameIntervals = False
+9.1601 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.1686 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='Click here to continue.', units='height', win=Window(...), wrapWidth=1)
+9.1793 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Here is a video example.', units='height', win=Window(...), wrapWidth=1)
+9.2041 	EXP 	Created one = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='one', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.2299 	EXP 	Created two = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='two', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.2519 	EXP 	Created three = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='three', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.2725 	EXP 	Created seven = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='seven', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.2950 	EXP 	Created eight = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eight', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.3184 	EXP 	Created nine = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='nine', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.3401 	EXP 	Created four = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='four', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.3624 	EXP 	Created five = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='five', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.3845 	EXP 	Created six = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='six', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.4048 	EXP 	Created ten = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ten', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.4538 	EXP 	Created eleven = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eleven', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.5326 	EXP 	Created twelve = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='twelve', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.5453 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.001, italic=False, languageStyle='LTR', name='continue_text', opacity=0.0, ori=0, pos=array([1.5, 1.5]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+9.6085 	EXP 	Created gram01 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram01', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.6352 	EXP 	Created gram02 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram02', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.6559 	EXP 	Created gram03 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram03', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.6858 	EXP 	Created gram04 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram04', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.7035 	EXP 	Created gram05 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram05', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.7346 	EXP 	Created gram06 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram06', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.7534 	EXP 	Created gram07 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-20.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram07', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.8084 	EXP 	Created gram08 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-21.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram08', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.8257 	EXP 	Created gram09 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-22.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram09', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.9092 	EXP 	Created gram10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-23.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram10', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+9.9667 	EXP 	Created gram11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-24.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram11', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.0175 	EXP 	Created gram12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-25.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram12', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.0250 	EXP 	Created easy_succ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-26.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='easy_succ', opacity=1.0, ori=0, pos=array([-0.3,  0. ]), rgb=array([255., 255., 255.]), text='Move On', units='height', win=Window(...), wrapWidth=1)
+10.0797 	EXP 	Created one_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='one_2', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.1301 	EXP 	Created two_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='two_2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.1779 	EXP 	Created three_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='three_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.2263 	EXP 	Created seven_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='seven_2', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.2743 	EXP 	Created eight_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eight_2', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.3210 	EXP 	Created nine_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='nine_2', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.3672 	EXP 	Created four_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='four_2', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.4140 	EXP 	Created five_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='five_2', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.4579 	EXP 	Created six_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='six_2', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.4983 	EXP 	Created ten_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ten_2', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.5362 	EXP 	Created eleven_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eleven_2', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.5747 	EXP 	Created twelve_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='twelve_2', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.5783 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.001, italic=False, languageStyle='LTR', name='continue_text', opacity=0.0, ori=0, pos=array([1.5, 1.5]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+10.6093 	EXP 	Created gram01_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram01_2', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6266 	EXP 	Created gram02_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram02_2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6378 	EXP 	Created gram03_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram03_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6510 	EXP 	Created gram04_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram04_2', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6581 	EXP 	Created gram05_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram05_2', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6708 	EXP 	Created gram06_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram06_2', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.6779 	EXP 	Created gram07_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-20.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram07_2', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.7117 	EXP 	Created gram08_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-21.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram08_2', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.7179 	EXP 	Created gram09_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-22.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram09_2', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.7689 	EXP 	Created gram10_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-23.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram10_2', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.8000 	EXP 	Created gram11_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-24.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram11_2', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.8255 	EXP 	Created gram12_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-25.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram12_2', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.8304 	EXP 	Created easy_succ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-26.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='easy_succ_2', opacity=1.0, ori=0, pos=array([-0.3,  0. ]), rgb=array([255., 255., 255.]), text='Move On', units='height', win=Window(...), wrapWidth=1)
+10.8862 	EXP 	Created one_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='one_3', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+10.9486 	EXP 	Created two_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='two_3', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.0059 	EXP 	Created three_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='three_3', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.0658 	EXP 	Created seven_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='seven_3', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.1296 	EXP 	Created eight_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eight_3', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.1923 	EXP 	Created nine_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='nine_3', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.2519 	EXP 	Created four_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='four_3', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.3239 	EXP 	Created five_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='five_3', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.3861 	EXP 	Created six_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='six_3', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.4416 	EXP 	Created ten_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ten_3', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.5045 	EXP 	Created eleven_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='eleven_3', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.5682 	EXP 	Created twelve_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='twelve_3', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.5716 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.001, italic=False, languageStyle='LTR', name='continue_text', opacity=0.0, ori=0, pos=array([1.5, 1.5]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+11.6260 	EXP 	Created gram01_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram01_3', opacity=1.0, ori=0.0, pos=array([-0.7,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.6482 	EXP 	Created gram02_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram02_3', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.6692 	EXP 	Created gram03_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram03_3', opacity=1.0, ori=0.0, pos=array([-0.2,  0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.6941 	EXP 	Created gram04_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram04_3', opacity=1.0, ori=0.0, pos=array([0.2, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.7124 	EXP 	Created gram05_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram05_3', opacity=1.0, ori=0.0, pos=array([0.45, 0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.7427 	EXP 	Created gram06_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram06_3', opacity=1.0, ori=0.0, pos=array([0.7, 0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.7629 	EXP 	Created gram07_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-20.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram07_3', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.8024 	EXP 	Created gram08_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-21.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram08_3', opacity=1.0, ori=0.0, pos=array([-0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.8121 	EXP 	Created gram09_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-22.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram09_3', opacity=1.0, ori=0.0, pos=array([-0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.8728 	EXP 	Created gram10_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-23.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram10_3', opacity=1.0, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.9250 	EXP 	Created gram11_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-24.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram11_3', opacity=1.0, ori=0.0, pos=array([ 0.45, -0.3 ]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.9723 	EXP 	Created gram12_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-25.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='gram12_3', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.22, 0.22]), texRes=128, units='height', win=Window(...))
+11.9770 	EXP 	Created easy_succ_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-26.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='easy_succ_3', opacity=1.0, ori=0, pos=array([-0.3,  0. ]), rgb=array([255., 255., 255.]), text='Move On', units='height', win=Window(...), wrapWidth=1)
+12.0171 	EXP 	instruction_text: autoDraw = True
+12.0171 	EXP 	text_2: autoDraw = True
+15.7545 	DATA 	Mouse: Left button down, pos=(771,61)
+15.7691 	EXP 	instruction_text: autoDraw = False
+15.7691 	EXP 	text_2: autoDraw = False
+15.7691 	EXP 	text: autoDraw = True
+15.8534 	DATA 	Mouse:  Left button up, pos=(771,61)
+16.5375 	DATA 	Mouse: Left button down, pos=(883,532)
+16.8856 	DATA 	Mouse:  Left button up, pos=(883,532)
+16.8976 	EXP 	text: autoDraw = False
+16.8976 	EXP 	one: autoDraw = True
+16.8976 	EXP 	two: autoDraw = True
+16.8976 	EXP 	three: autoDraw = True
+16.8976 	EXP 	seven: autoDraw = True
+16.8976 	EXP 	eight: autoDraw = True
+16.8976 	EXP 	nine: autoDraw = True
+16.8976 	EXP 	four: autoDraw = True
+16.8976 	EXP 	five: autoDraw = True
+16.8976 	EXP 	six: autoDraw = True
+16.8976 	EXP 	ten: autoDraw = True
+16.8976 	EXP 	eleven: autoDraw = True
+16.8976 	EXP 	twelve: autoDraw = True
+17.0252 	EXP 	gram01: autoDraw = True
+17.0252 	EXP 	gram02: autoDraw = True
+17.0252 	EXP 	gram03: autoDraw = True
+17.0252 	EXP 	gram04: autoDraw = True
+17.0252 	EXP 	gram05: autoDraw = True
+17.0252 	EXP 	gram06: autoDraw = True
+17.0252 	EXP 	gram07: autoDraw = True
+17.0252 	EXP 	gram08: autoDraw = True
+17.0252 	EXP 	gram09: autoDraw = True
+17.0252 	EXP 	gram10: autoDraw = True
+17.0252 	EXP 	gram11: autoDraw = True
+17.0252 	EXP 	gram12: autoDraw = True
+17.0252 	EXP 	easy_succ: autoDraw = True
+62.1438 	DATA 	Mouse: Left button down, pos=(477,227)
+62.2020 	EXP 	gram08: pos = array([-0.44722222, -0.28981481])
+62.2362 	EXP 	gram08: pos = array([-0.44722222, -0.28981481])
+62.2691 	EXP 	gram08: pos = array([-0.44722222, -0.28981481])
+62.3024 	EXP 	gram08: pos = array([-0.46481481, -0.26574074])
+62.3360 	EXP 	gram08: pos = array([-0.48796296, -0.23333333])
+62.3709 	EXP 	gram08: pos = array([-0.49907407, -0.21481481])
+62.4045 	EXP 	gram08: pos = array([-0.50833333, -0.19537037])
+62.4377 	EXP 	gram08: pos = array([-0.51851852, -0.17685185])
+62.4722 	EXP 	gram08: pos = array([-0.525     , -0.16759259])
+62.5048 	EXP 	gram08: pos = array([-0.53148148, -0.15462963])
+62.5389 	EXP 	gram08: pos = array([-0.54166667, -0.13240741])
+62.5716 	EXP 	gram08: pos = array([-0.55555556, -0.09814815])
+62.6045 	EXP 	gram08: pos = array([-0.57222222, -0.05462963])
+62.6380 	EXP 	gram08: pos = array([-0.58518519, -0.01574074])
+62.6708 	EXP 	gram08: pos = array([-0.59907407,  0.01388889])
+62.7044 	EXP 	gram08: pos = array([-0.61018519,  0.0287037 ])
+62.7404 	EXP 	gram08: pos = array([-0.625     ,  0.05092593])
+62.7733 	EXP 	gram08: pos = array([-0.63611111,  0.06759259])
+62.8058 	EXP 	gram08: pos = array([-0.64351852,  0.07777778])
+62.8379 	EXP 	gram08: pos = array([-0.64814815,  0.08333333])
+62.8711 	EXP 	gram08: pos = array([-0.65185185,  0.08888889])
+62.9039 	EXP 	gram08: pos = array([-0.65462963,  0.09074074])
+62.9373 	EXP 	gram08: pos = array([-0.65648148,  0.09074074])
+62.9716 	EXP 	gram08: pos = array([-0.65833333,  0.09074074])
+63.0069 	EXP 	gram08: pos = array([-0.66018519,  0.08981481])
+63.0381 	EXP 	gram08: pos = array([-0.66203704,  0.08888889])
+63.0715 	EXP 	gram08: pos = array([-0.66666667,  0.08888889])
+63.1045 	EXP 	gram08: pos = array([-0.67314815,  0.08888889])
+63.1420 	EXP 	gram08: pos = array([-0.67777778,  0.08888889])
+63.1782 	EXP 	gram08: pos = array([-0.68055556,  0.08888889])
+63.2230 	EXP 	gram08: pos = array([-0.68425926,  0.08796296])
+63.2596 	EXP 	gram08: pos = array([-0.68981481,  0.08703704])
+63.2943 	EXP 	gram08: pos = array([-0.6962963 ,  0.08518519])
+63.3421 	EXP 	gram08: pos = array([-0.70462963,  0.08148148])
+63.3773 	EXP 	gram08: pos = array([-0.70648148,  0.08055556])
+63.4124 	EXP 	gram08: pos = array([-0.70833333,  0.07962963])
+63.4570 	EXP 	gram08: pos = array([-0.70925926,  0.0787037 ])
+63.4939 	EXP 	gram08: pos = array([-0.71018519,  0.0787037 ])
+63.5220 	EXP 	gram08: pos = array([-0.71018519,  0.0787037 ])
+63.5538 	EXP 	gram08: pos = array([-0.71018519,  0.0787037 ])
+63.5872 	EXP 	gram08: pos = array([-0.70925926,  0.07777778])
+63.5926 	DATA 	Mouse:  Left button up, pos=(194,624)
+65.0150 	DATA 	Mouse: Left button down, pos=(1162,758)
+65.1104 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.1478 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.1937 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.2312 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.2791 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.3146 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.3605 	EXP 	gram04: pos = array([0.18703704, 0.20185185])
+65.3986 	EXP 	gram04: pos = array([0.18055556, 0.2       ])
+65.9127 	DATA 	Mouse:  Left button up, pos=(658,692)
+66.2700 	DATA 	Mouse: Left button down, pos=(1157,726)
+66.3457 	EXP 	gram04: pos = array([0.18240741, 0.17222222])
+66.3830 	EXP 	gram04: pos = array([0.18240741, 0.17222222])
+66.4305 	EXP 	gram04: pos = array([0.18240741, 0.17222222])
+66.4801 	EXP 	gram04: pos = array([0.14259259, 0.16018519])
+66.5314 	EXP 	gram04: pos = array([0.06666667, 0.15185185])
+66.5801 	EXP 	gram04: pos = array([0.02685185, 0.15277778])
+66.6186 	EXP 	gram04: pos = array([-0.01203704,  0.15185185])
+66.6641 	EXP 	gram04: pos = array([-0.05648148,  0.15277778])
+66.7136 	EXP 	gram04: pos = array([-0.09166667,  0.1537037 ])
+66.7512 	EXP 	gram04: pos = array([-0.11666667,  0.1537037 ])
+66.7972 	EXP 	gram04: pos = array([-0.14351852,  0.15185185])
+66.8378 	EXP 	gram04: pos = array([-0.16018519,  0.15      ])
+66.8843 	EXP 	gram04: pos = array([-0.1787037,  0.15     ])
+66.9255 	EXP 	gram04: pos = array([-0.20555556,  0.14907407])
+66.9580 	EXP 	gram04: pos = array([-0.22314815,  0.14907407])
+66.9910 	EXP 	gram04: pos = array([-0.24351852,  0.14907407])
+67.0243 	EXP 	gram04: pos = array([-0.26388889,  0.14907407])
+67.0572 	EXP 	gram04: pos = array([-0.28518519,  0.14814815])
+67.0913 	EXP 	gram04: pos = array([-0.30648148,  0.1462963 ])
+67.1308 	EXP 	gram04: pos = array([-0.32222222,  0.1462963 ])
+67.1811 	EXP 	gram04: pos = array([-0.35092593,  0.14166667])
+67.2183 	EXP 	gram04: pos = array([-0.36944444,  0.13703704])
+67.2678 	EXP 	gram04: pos = array([-0.40277778,  0.12592593])
+67.3136 	EXP 	gram04: pos = array([-0.42037037,  0.12037037])
+67.3558 	EXP 	gram04: pos = array([-0.43518519,  0.11574074])
+67.3975 	EXP 	gram04: pos = array([-0.44444444,  0.10925926])
+67.4469 	EXP 	gram04: pos = array([-0.44722222,  0.10740741])
+67.4843 	EXP 	gram04: pos = array([-0.44814815,  0.10740741])
+67.5091 	DATA 	Mouse:  Left button up, pos=(476,656)
+68.1689 	DATA 	Mouse: Left button down, pos=(218,220)
+68.2456 	EXP 	gram07: pos = array([-0.67962963, -0.29351852])
+68.2844 	EXP 	gram07: pos = array([-0.6287037 , -0.26481481])
+68.3319 	EXP 	gram07: pos = array([-0.58518519, -0.24537037])
+68.3695 	EXP 	gram07: pos = array([-0.54444444, -0.23148148])
+68.4145 	EXP 	gram07: pos = array([-0.50833333, -0.22777778])
+68.4528 	EXP 	gram07: pos = array([-0.47592593, -0.22407407])
+68.4988 	EXP 	gram07: pos = array([-0.43148148, -0.22037037])
+68.5388 	EXP 	gram07: pos = array([-0.38703704, -0.21203704])
+68.5813 	EXP 	gram07: pos = array([-0.33703704, -0.19907407])
+68.6183 	EXP 	gram07: pos = array([-0.28796296, -0.18518519])
+68.6658 	EXP 	gram07: pos = array([-0.23425926, -0.16574074])
+68.7157 	EXP 	gram07: pos = array([-0.13981481, -0.12222222])
+68.7548 	EXP 	gram07: pos = array([-0.0962963 , -0.10555556])
+68.7986 	EXP 	gram07: pos = array([-0.06481481, -0.09074074])
+68.8493 	EXP 	gram07: pos = array([-0.02592593, -0.07407407])
+68.8874 	EXP 	gram07: pos = array([-0.01851852, -0.06759259])
+68.9330 	EXP 	gram07: pos = array([-0.00925926, -0.03333333])
+68.9700 	EXP 	gram07: pos = array([-0.01759259,  0.03055556])
+69.0154 	EXP 	gram07: pos = array([-0.02777778,  0.04814815])
+69.0563 	EXP 	gram07: pos = array([-0.0537037 ,  0.06851852])
+69.1000 	EXP 	gram07: pos = array([-0.08333333,  0.08425926])
+69.1407 	EXP 	gram07: pos = array([-0.11018519,  0.09166667])
+69.1844 	EXP 	gram07: pos = array([-0.12685185,  0.09722222])
+69.2336 	EXP 	gram07: pos = array([-0.15833333,  0.1       ])
+69.2804 	EXP 	gram07: pos = array([-0.17407407,  0.09907407])
+69.3209 	EXP 	gram07: pos = array([-0.18148148,  0.09722222])
+69.3665 	EXP 	gram07: pos = array([-0.19074074,  0.09351852])
+69.4046 	EXP 	gram07: pos = array([-0.19444444,  0.09259259])
+69.4491 	EXP 	gram07: pos = array([-0.19537037,  0.09166667])
+69.4862 	EXP 	gram07: pos = array([-0.1962963 ,  0.09166667])
+69.5332 	EXP 	gram07: pos = array([-0.19814815,  0.08981481])
+69.5706 	EXP 	gram07: pos = array([-0.2       ,  0.08796296])
+69.6159 	EXP 	gram07: pos = array([-0.20277778,  0.08703704])
+69.6534 	EXP 	gram07: pos = array([-0.2037037 ,  0.08611111])
+69.6789 	DATA 	Mouse:  Left button up, pos=(740,633)
+71.9542 	DATA 	Mouse: Left button down, pos=(496,837)
+72.0204 	EXP 	gram02: pos = array([-0.42962963,  0.275     ])
+72.0682 	EXP 	gram02: pos = array([-0.42962963,  0.275     ])
+72.1060 	EXP 	gram02: pos = array([-0.42962963,  0.275     ])
+72.1514 	EXP 	gram02: pos = array([-0.42962963,  0.275     ])
+72.1892 	EXP 	gram02: pos = array([-0.41296296,  0.28333333])
+72.2366 	EXP 	gram02: pos = array([-0.37037037,  0.29259259])
+72.2764 	EXP 	gram02: pos = array([-0.33796296,  0.2962963 ])
+72.3189 	EXP 	gram02: pos = array([-0.32037037,  0.2962963 ])
+72.3561 	EXP 	gram02: pos = array([-0.29351852,  0.29351852])
+72.4002 	EXP 	gram02: pos = array([-0.2537037 ,  0.28333333])
+72.4408 	EXP 	gram02: pos = array([-0.21203704,  0.27314815])
+72.4866 	EXP 	gram02: pos = array([-0.18425926,  0.26481481])
+72.5261 	EXP 	gram02: pos = array([-0.15185185,  0.25648148])
+72.5688 	EXP 	gram02: pos = array([-0.10462963,  0.23796296])
+72.6084 	EXP 	gram02: pos = array([-0.06481481,  0.22407407])
+72.6536 	EXP 	gram02: pos = array([-0.01574074,  0.20277778])
+72.7030 	EXP 	gram02: pos = array([0.03425926, 0.18055556])
+72.7451 	EXP 	gram02: pos = array([0.06574074, 0.16203704])
+72.7869 	EXP 	gram02: pos = array([0.08981481, 0.15      ])
+72.8372 	EXP 	gram02: pos = array([0.11388889, 0.13333333])
+72.8757 	EXP 	gram02: pos = array([0.12592593, 0.12777778])
+72.9209 	EXP 	gram02: pos = array([0.14351852, 0.11851852])
+72.9694 	EXP 	gram02: pos = array([0.15648148, 0.11111111])
+73.0115 	EXP 	gram02: pos = array([0.16851852, 0.10648148])
+73.0537 	EXP 	gram02: pos = array([0.18055556, 0.10185185])
+73.0922 	EXP 	gram02: pos = array([0.18333333, 0.10092593])
+73.1360 	EXP 	gram02: pos = array([0.18518519, 0.10092593])
+73.1675 	DATA 	Mouse:  Left button up, pos=(1160,649)
+73.1747 	EXP 	gram02: pos = array([0.18518519, 0.10092593])
+73.8795 	DATA 	Mouse: Left button down, pos=(169,866)
+73.9651 	EXP 	gram01: pos = array([-0.73240741,  0.30185185])
+73.9987 	EXP 	gram01: pos = array([-0.73240741,  0.30185185])
+74.0321 	EXP 	gram01: pos = array([-0.73240741,  0.30185185])
+74.0656 	EXP 	gram01: pos = array([-0.72222222,  0.30092593])
+74.1049 	EXP 	gram01: pos = array([-0.70648148,  0.3       ])
+74.1420 	EXP 	gram01: pos = array([-0.6787037 ,  0.30092593])
+74.1884 	EXP 	gram01: pos = array([-0.63703704,  0.30555556])
+74.2287 	EXP 	gram01: pos = array([-0.58425926,  0.31111111])
+74.2781 	EXP 	gram01: pos = array([-0.49074074,  0.32314815])
+74.3218 	EXP 	gram01: pos = array([-0.39259259,  0.32685185])
+74.3593 	EXP 	gram01: pos = array([-0.29537037,  0.32222222])
+74.4043 	EXP 	gram01: pos = array([-0.26018519,  0.32777778])
+74.4472 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.4886 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.5261 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.5729 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.6123 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.6557 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.6919 	EXP 	gram01: pos = array([-0.26018519,  0.33518519])
+74.7387 	EXP 	gram01: pos = array([-0.23425926,  0.33425926])
+74.7773 	EXP 	gram01: pos = array([-0.18888889,  0.3287037 ])
+74.8225 	EXP 	gram01: pos = array([-0.15648148,  0.32407407])
+74.8613 	EXP 	gram01: pos = array([-0.1462963 ,  0.32037037])
+74.9057 	EXP 	gram01: pos = array([-0.14074074,  0.31851852])
+74.9440 	EXP 	gram01: pos = array([-0.13703704,  0.31759259])
+74.9882 	EXP 	gram01: pos = array([-0.13518519,  0.31666667])
+75.0269 	EXP 	gram01: pos = array([-0.13333333,  0.31481481])
+75.0735 	EXP 	gram01: pos = array([-0.10555556,  0.30833333])
+75.6178 	DATA 	Mouse:  Left button up, pos=(1389,725)
+76.2121 	DATA 	Mouse: Left button down, pos=(906,840)
+76.2857 	EXP 	gram01: pos = array([-0.05      ,  0.27777778])
+76.3181 	EXP 	gram01: pos = array([-0.05      ,  0.27777778])
+76.3519 	EXP 	gram01: pos = array([-0.05      ,  0.27777778])
+76.3851 	EXP 	gram01: pos = array([-0.05      ,  0.27777778])
+76.4190 	EXP 	gram01: pos = array([-0.05      ,  0.27777778])
+76.4520 	EXP 	gram01: pos = array([-0.04166667,  0.27685185])
+76.4916 	EXP 	gram01: pos = array([-0.03425926,  0.275     ])
+76.5278 	EXP 	gram01: pos = array([-0.02777778,  0.27222222])
+76.5745 	EXP 	gram01: pos = array([-0.01944444,  0.27037037])
+76.6112 	EXP 	gram01: pos = array([-0.01111111,  0.26851852])
+76.6578 	EXP 	gram01: pos = array([0.01018519, 0.26018519])
+76.6959 	EXP 	gram01: pos = array([0.05     , 0.2462963])
+76.7411 	EXP 	gram01: pos = array([0.08333333, 0.23425926])
+76.7836 	EXP 	gram01: pos = array([0.11481481, 0.22592593])
+76.8246 	EXP 	gram01: pos = array([0.13981481, 0.21944444])
+76.8645 	EXP 	gram01: pos = array([0.16203704, 0.21296296])
+76.9028 	EXP 	gram01: pos = array([0.18333333, 0.20555556])
+76.9367 	EXP 	gram01: pos = array([0.22314815, 0.19444444])
+76.9703 	EXP 	gram01: pos = array([0.25277778, 0.18611111])
+77.0060 	EXP 	gram01: pos = array([0.28333333, 0.17592593])
+77.0381 	EXP 	gram01: pos = array([0.32037037, 0.16388889])
+77.0702 	EXP 	gram01: pos = array([0.34351852, 0.15555556])
+77.1045 	EXP 	gram01: pos = array([0.36574074, 0.14814815])
+77.1415 	EXP 	gram01: pos = array([0.37962963, 0.14351852])
+77.1802 	EXP 	gram01: pos = array([0.39537037, 0.13703704])
+77.2258 	EXP 	gram01: pos = array([0.41296296, 0.12962963])
+77.2619 	EXP 	gram01: pos = array([0.42314815, 0.125     ])
+77.3085 	EXP 	gram01: pos = array([0.43333333, 0.11944444])
+77.3579 	EXP 	gram01: pos = array([0.44166667, 0.11759259])
+77.3962 	EXP 	gram01: pos = array([0.45      , 0.11481481])
+77.4416 	EXP 	gram01: pos = array([0.46203704, 0.11203704])
+77.4793 	EXP 	gram01: pos = array([0.46296296, 0.11203704])
+77.5070 	DATA 	Mouse:  Left button up, pos=(1460,661)
+77.9925 	DATA 	Mouse: Left button down, pos=(1451,884)
+78.0589 	EXP 	gram05: pos = array([0.47407407, 0.30092593])
+78.1017 	EXP 	gram05: pos = array([0.49537037, 0.28055556])
+78.1380 	EXP 	gram05: pos = array([0.51759259, 0.26018519])
+78.1726 	EXP 	gram05: pos = array([0.53611111, 0.24074074])
+78.2074 	EXP 	gram05: pos = array([0.55 , 0.225])
+78.2396 	EXP 	gram05: pos = array([0.56203704, 0.21296296])
+78.2716 	EXP 	gram05: pos = array([0.575     , 0.19907407])
+78.3054 	EXP 	gram05: pos = array([0.59074074, 0.18240741])
+78.3403 	EXP 	gram05: pos = array([0.60555556, 0.16666667])
+78.3782 	EXP 	gram05: pos = array([0.6287037, 0.1462963])
+78.4264 	EXP 	gram05: pos = array([0.64074074, 0.13518519])
+78.4639 	EXP 	gram05: pos = array([0.64722222, 0.1287037 ])
+78.5100 	EXP 	gram05: pos = array([0.65648148, 0.12222222])
+78.5500 	EXP 	gram05: pos = array([0.66203704, 0.11851852])
+78.5933 	EXP 	gram05: pos = array([0.66666667, 0.11481481])
+78.6331 	EXP 	gram05: pos = array([0.67222222, 0.11111111])
+78.6768 	EXP 	gram05: pos = array([0.67777778, 0.10740741])
+78.7147 	EXP 	gram05: pos = array([0.68240741, 0.10462963])
+78.7670 	EXP 	gram05: pos = array([0.69074074, 0.10092593])
+78.8157 	EXP 	gram05: pos = array([0.69814815, 0.0962963 ])
+78.8664 	EXP 	gram05: pos = array([0.7       , 0.09444444])
+78.9095 	EXP 	gram05: pos = array([0.70185185, 0.09351852])
+78.9481 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+78.9871 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.0275 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.0633 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.1096 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.1466 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.1924 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.2294 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.2827 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.3258 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.3629 	EXP 	gram05: pos = array([0.70277778, 0.09351852])
+79.3889 	DATA 	Mouse:  Left button up, pos=(1719,641)
+81.5833 	DATA 	Mouse: Left button down, pos=(1216,208)
+81.6573 	EXP 	gram10: pos = array([ 0.23703704, -0.30740741])
+81.6906 	EXP 	gram10: pos = array([ 0.23703704, -0.30740741])
+81.7264 	EXP 	gram10: pos = array([ 0.23703704, -0.30740741])
+81.7616 	EXP 	gram10: pos = array([ 0.22592593, -0.30925926])
+81.7960 	EXP 	gram10: pos = array([ 0.19166667, -0.30925926])
+81.8301 	EXP 	gram10: pos = array([ 0.15648148, -0.30925926])
+81.8643 	EXP 	gram10: pos = array([ 0.13518519, -0.30925926])
+81.9003 	EXP 	gram10: pos = array([ 0.12314815, -0.30925926])
+81.9448 	EXP 	gram10: pos = array([ 0.11481481, -0.30925926])
+81.9839 	EXP 	gram10: pos = array([ 0.10648148, -0.30833333])
+82.0304 	EXP 	gram10: pos = array([ 0.075     , -0.29814815])
+82.0696 	EXP 	gram10: pos = array([ 0.03333333, -0.28148148])
+82.1140 	EXP 	gram10: pos = array([-0.01574074, -0.26574074])
+82.1507 	EXP 	gram10: pos = array([-0.05555556, -0.25740741])
+82.1973 	EXP 	gram10: pos = array([-0.08240741, -0.25092593])
+82.2391 	EXP 	gram10: pos = array([-0.09722222, -0.2462963 ])
+82.2903 	EXP 	gram10: pos = array([-0.10555556, -0.24444444])
+82.3306 	EXP 	gram10: pos = array([-0.11574074, -0.24166667])
+82.3683 	EXP 	gram10: pos = array([-0.12314815, -0.23796296])
+82.4145 	EXP 	gram10: pos = array([-0.13240741, -0.23240741])
+82.4531 	EXP 	gram10: pos = array([-0.14166667, -0.22777778])
+82.4976 	EXP 	gram10: pos = array([-0.15      , -0.22222222])
+82.5350 	EXP 	gram10: pos = array([-0.16574074, -0.21481481])
+82.5804 	EXP 	gram10: pos = array([-0.22592593, -0.20185185])
+82.6178 	EXP 	gram10: pos = array([-0.30925926, -0.19351852])
+82.6652 	EXP 	gram10: pos = array([-0.34074074, -0.18981481])
+82.7134 	EXP 	gram10: pos = array([-0.34259259, -0.18981481])
+82.7499 	EXP 	gram10: pos = array([-0.34259259, -0.18981481])
+82.7970 	EXP 	gram10: pos = array([-0.34259259, -0.18981481])
+82.8331 	EXP 	gram10: pos = array([-0.34259259, -0.18981481])
+82.8807 	EXP 	gram10: pos = array([-0.34259259, -0.18981481])
+82.9177 	EXP 	gram10: pos = array([-0.34259259, -0.18981481])
+82.9645 	EXP 	gram10: pos = array([-0.41759259, -0.18703704])
+83.0026 	EXP 	gram10: pos = array([-0.49814815, -0.18425926])
+83.0420 	EXP 	gram10: pos = array([-0.54166667, -0.18240741])
+83.0753 	EXP 	gram10: pos = array([-0.57314815, -0.18055556])
+83.1082 	EXP 	gram10: pos = array([-0.59259259, -0.17777778])
+83.1419 	EXP 	gram10: pos = array([-0.61203704, -0.17407407])
+83.1754 	EXP 	gram10: pos = array([-0.63703704, -0.16851852])
+83.2149 	EXP 	gram10: pos = array([-0.66944444, -0.16296296])
+83.2532 	EXP 	gram10: pos = array([-0.68611111, -0.15740741])
+83.2983 	EXP 	gram10: pos = array([-0.70092593, -0.1537037 ])
+83.3502 	EXP 	gram10: pos = array([-0.71111111, -0.15092593])
+83.3946 	EXP 	gram10: pos = array([-0.71481481, -0.15      ])
+83.4384 	EXP 	gram10: pos = array([-0.71666667, -0.15      ])
+83.4719 	DATA 	Mouse:  Left button up, pos=(185,378)
+83.4817 	EXP 	gram10: pos = array([-0.71759259, -0.15      ])
+84.1896 	DATA 	Mouse: Left button down, pos=(784,229)
+84.2785 	EXP 	gram09: pos = array([-0.19444444, -0.27685185])
+84.3101 	EXP 	gram09: pos = array([-0.2462963 , -0.25925926])
+84.3435 	EXP 	gram09: pos = array([-0.28333333, -0.24444444])
+84.3768 	EXP 	gram09: pos = array([-0.30555556, -0.23518519])
+84.4126 	EXP 	gram09: pos = array([-0.32407407, -0.225     ])
+84.4526 	EXP 	gram09: pos = array([-0.34722222, -0.21296296])
+84.4990 	EXP 	gram09: pos = array([-0.36481481, -0.20185185])
+84.5418 	EXP 	gram09: pos = array([-0.37685185, -0.19444444])
+84.5839 	EXP 	gram09: pos = array([-0.38703704, -0.18981481])
+84.6351 	EXP 	gram09: pos = array([-0.4       , -0.18148148])
+84.6834 	EXP 	gram09: pos = array([-0.40648148, -0.17962963])
+84.7207 	EXP 	gram09: pos = array([-0.41481481, -0.17777778])
+84.7668 	EXP 	gram09: pos = array([-0.41944444, -0.17777778])
+84.8040 	EXP 	gram09: pos = array([-0.42222222, -0.17777778])
+84.8492 	EXP 	gram09: pos = array([-0.42407407, -0.17777778])
+84.8875 	EXP 	gram09: pos = array([-0.42592593, -0.17777778])
+84.9338 	EXP 	gram09: pos = array([-0.4287037 , -0.17777778])
+84.9718 	EXP 	gram09: pos = array([-0.43148148, -0.17777778])
+85.0163 	EXP 	gram09: pos = array([-0.43333333, -0.17777778])
+85.0540 	EXP 	gram09: pos = array([-0.43518519, -0.17777778])
+85.1002 	EXP 	gram09: pos = array([-0.43703704, -0.17777778])
+85.1362 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.1840 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.2199 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.2669 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.3033 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.3495 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.3864 	EXP 	gram09: pos = array([-0.43888889, -0.17777778])
+85.4139 	DATA 	Mouse:  Left button up, pos=(486,348)
+86.6212 	DATA 	Mouse: Left button down, pos=(802,915)
+86.7013 	EXP 	gram03: pos = array([-0.1462963 ,  0.34722222])
+86.7299 	EXP 	gram03: pos = array([-0.1462963 ,  0.34722222])
+86.7628 	EXP 	gram03: pos = array([-0.1462963 ,  0.34722222])
+86.7988 	EXP 	gram03: pos = array([-0.1462963 ,  0.34722222])
+86.8347 	EXP 	gram03: pos = array([-0.14074074,  0.34722222])
+86.8686 	EXP 	gram03: pos = array([-0.11111111,  0.34166667])
+86.9016 	EXP 	gram03: pos = array([-0.07407407,  0.32962963])
+86.9381 	EXP 	gram03: pos = array([-0.04074074,  0.31111111])
+86.9855 	EXP 	gram03: pos = array([-0.0212963 ,  0.29537037])
+87.0267 	EXP 	gram03: pos = array([-0.00555556,  0.27222222])
+87.0706 	EXP 	gram03: pos = array([0.00833333, 0.23425926])
+87.1195 	EXP 	gram03: pos = array([0.02962963, 0.15925926])
+87.1587 	EXP 	gram03: pos = array([0.04351852, 0.09351852])
+87.2019 	EXP 	gram03: pos = array([0.05648148, 0.02407407])
+87.2406 	EXP 	gram03: pos = array([ 0.06481481, -0.01018519])
+87.2854 	EXP 	gram03: pos = array([ 0.06944444, -0.01759259])
+87.3219 	EXP 	gram03: pos = array([ 0.06944444, -0.01759259])
+87.3695 	EXP 	gram03: pos = array([ 0.06944444, -0.01759259])
+87.4062 	EXP 	gram03: pos = array([ 0.06944444, -0.01759259])
+87.4516 	EXP 	gram03: pos = array([ 0.06944444, -0.01759259])
+87.4898 	EXP 	gram03: pos = array([ 0.06759259, -0.02037037])
+87.5366 	EXP 	gram03: pos = array([ 0.04074074, -0.0537037 ])
+87.5874 	EXP 	gram03: pos = array([ 0.00740741, -0.08888889])
+87.6257 	EXP 	gram03: pos = array([-0.00555556, -0.09907407])
+87.6696 	EXP 	gram03: pos = array([-0.0212963 , -0.11018519])
+87.7096 	EXP 	gram03: pos = array([-0.03703704, -0.12222222])
+87.7551 	EXP 	gram03: pos = array([-0.05462963, -0.13518519])
+87.8040 	EXP 	gram03: pos = array([-0.08148148, -0.14814815])
+87.8416 	EXP 	gram03: pos = array([-0.1      , -0.1537037])
+87.8861 	EXP 	gram03: pos = array([-0.12037037, -0.16018519])
+87.9277 	EXP 	gram03: pos = array([-0.14074074, -0.16574074])
+87.9700 	EXP 	gram03: pos = array([-0.15833333, -0.17222222])
+88.0082 	EXP 	gram03: pos = array([-0.16851852, -0.17407407])
+88.0531 	EXP 	gram03: pos = array([-0.17314815, -0.175     ])
+88.0907 	EXP 	gram03: pos = array([-0.175     , -0.17592593])
+88.1373 	EXP 	gram03: pos = array([-0.1787037 , -0.17685185])
+88.1742 	EXP 	gram03: pos = array([-0.18148148, -0.17777778])
+88.2202 	EXP 	gram03: pos = array([-0.18518519, -0.17777778])
+88.2591 	EXP 	gram03: pos = array([-0.18703704, -0.17777778])
+88.3029 	EXP 	gram03: pos = array([-0.18703704, -0.17777778])
+88.3346 	DATA 	Mouse:  Left button up, pos=(758,347)
+88.3417 	EXP 	gram03: pos = array([-0.18703704, -0.1787037 ])
+90.7120 	DATA 	Mouse: Left button down, pos=(1723,225)
+90.8072 	EXP 	gram12: pos = array([ 0.70648148, -0.29166667])
+90.8389 	EXP 	gram12: pos = array([ 0.70648148, -0.29166667])
+90.8704 	EXP 	gram12: pos = array([ 0.70648148, -0.29166667])
+90.9025 	EXP 	gram12: pos = array([ 0.7037037 , -0.28703704])
+90.9351 	EXP 	gram12: pos = array([ 0.68425926, -0.2537037 ])
+90.9705 	EXP 	gram12: pos = array([ 0.66203704, -0.21944444])
+91.0026 	EXP 	gram12: pos = array([ 0.64074074, -0.19814815])
+91.0357 	EXP 	gram12: pos = array([ 0.61481481, -0.18055556])
+91.0702 	EXP 	gram12: pos = array([ 0.5787037 , -0.16296296])
+91.1028 	EXP 	gram12: pos = array([ 0.55277778, -0.15      ])
+91.1359 	EXP 	gram12: pos = array([ 0.52685185, -0.13888889])
+91.1691 	EXP 	gram12: pos = array([ 0.49814815, -0.1287037 ])
+91.2025 	EXP 	gram12: pos = array([ 0.47407407, -0.12222222])
+91.2500 	EXP 	gram12: pos = array([ 0.44907407, -0.11759259])
+91.2907 	EXP 	gram12: pos = array([ 0.40740741, -0.11481481])
+91.3395 	EXP 	gram12: pos = array([ 0.35925926, -0.11666667])
+91.3747 	EXP 	gram12: pos = array([ 0.33796296, -0.12037037])
+91.4119 	EXP 	gram12: pos = array([ 0.30925926, -0.12685185])
+91.4555 	EXP 	gram12: pos = array([ 0.28333333, -0.13333333])
+91.4906 	EXP 	gram12: pos = array([ 0.25925926, -0.13796296])
+91.5269 	EXP 	gram12: pos = array([ 0.22962963, -0.14537037])
+91.5715 	EXP 	gram12: pos = array([ 0.20555556, -0.15740741])
+91.6186 	EXP 	gram12: pos = array([ 0.19722222, -0.16296296])
+91.6674 	EXP 	gram12: pos = array([ 0.19537037, -0.16481481])
+91.7081 	EXP 	gram12: pos = array([ 0.19444444, -0.16481481])
+91.7436 	EXP 	gram12: pos = array([ 0.19444444, -0.16481481])
+91.7894 	EXP 	gram12: pos = array([ 0.19444444, -0.16481481])
+91.7968 	DATA 	Mouse:  Left button up, pos=(1170,362)
+92.5169 	DATA 	Mouse: Left button down, pos=(1756,818)
+92.5920 	EXP 	gram06: pos = array([0.73703704, 0.25740741])
+92.6291 	EXP 	gram06: pos = array([0.73703704, 0.25740741])
+92.6757 	EXP 	gram06: pos = array([0.71203704, 0.21481481])
+92.7141 	EXP 	gram06: pos = array([0.69259259, 0.17777778])
+92.7597 	EXP 	gram06: pos = array([0.67592593, 0.13981481])
+92.7969 	EXP 	gram06: pos = array([0.66481481, 0.10555556])
+92.8423 	EXP 	gram06: pos = array([0.6462963 , 0.07592593])
+92.8795 	EXP 	gram06: pos = array([0.62685185, 0.05      ])
+92.9250 	EXP 	gram06: pos = array([0.60740741, 0.01944444])
+92.9657 	EXP 	gram06: pos = array([ 0.58148148, -0.01018519])
+93.0093 	EXP 	gram06: pos = array([ 0.56481481, -0.03148148])
+93.0477 	EXP 	gram06: pos = array([ 0.55092593, -0.0462963 ])
+93.0864 	EXP 	gram06: pos = array([ 0.53518519, -0.06388889])
+93.1200 	EXP 	gram06: pos = array([ 0.52222222, -0.07685185])
+93.1532 	EXP 	gram06: pos = array([ 0.50833333, -0.08981481])
+93.1865 	EXP 	gram06: pos = array([ 0.49722222, -0.10462963])
+93.2200 	EXP 	gram06: pos = array([ 0.48888889, -0.11944444])
+93.2533 	EXP 	gram06: pos = array([ 0.48703704, -0.12314815])
+93.2868 	EXP 	gram06: pos = array([ 0.48611111, -0.125     ])
+93.3249 	EXP 	gram06: pos = array([ 0.48611111, -0.125     ])
+93.3335 	DATA 	Mouse:  Left button up, pos=(1485,405)
+93.9537 	DATA 	Mouse: Left button down, pos=(1435,187)
+94.0419 	EXP 	gram11: pos = array([ 0.43981481, -0.32685185])
+94.0707 	EXP 	gram11: pos = array([ 0.45185185, -0.32685185])
+94.1042 	EXP 	gram11: pos = array([ 0.48703704, -0.32685185])
+94.1378 	EXP 	gram11: pos = array([ 0.53240741, -0.3212963 ])
+94.1749 	EXP 	gram11: pos = array([ 0.56759259, -0.32037037])
+94.2101 	EXP 	gram11: pos = array([ 0.5962963 , -0.32037037])
+94.2452 	EXP 	gram11: pos = array([ 0.62592593, -0.32314815])
+94.2852 	EXP 	gram11: pos = array([ 0.64444444, -0.32314815])
+94.3233 	EXP 	gram11: pos = array([ 0.65833333, -0.32314815])
+94.3579 	EXP 	gram11: pos = array([ 0.66944444, -0.3212963 ])
+94.3905 	EXP 	gram11: pos = array([ 0.6787037 , -0.31851852])
+94.4235 	EXP 	gram11: pos = array([ 0.69259259, -0.31666667])
+94.4587 	EXP 	gram11: pos = array([ 0.71388889, -0.31203704])
+94.4927 	EXP 	gram11: pos = array([ 0.72777778, -0.30648148])
+94.5274 	EXP 	gram11: pos = array([ 0.73518519, -0.3037037 ])
+94.5598 	EXP 	gram11: pos = array([ 0.73703704, -0.30185185])
+94.5935 	EXP 	gram11: pos = array([ 0.73703704, -0.30185185])
+94.5993 	DATA 	Mouse:  Left button up, pos=(1756,214)
+95.0454 	DATA 	Mouse: Left button down, pos=(1495,377)
+95.1135 	EXP 	gram06: pos = array([ 0.49537037, -0.15092593])
+95.1607 	EXP 	gram06: pos = array([ 0.49537037, -0.15092593])
+95.1977 	EXP 	gram06: pos = array([ 0.48333333, -0.18333333])
+95.2466 	EXP 	gram06: pos = array([ 0.47222222, -0.22222222])
+95.2954 	EXP 	gram06: pos = array([ 0.46296296, -0.26296296])
+95.3332 	EXP 	gram06: pos = array([ 0.45833333, -0.29074074])
+95.3880 	EXP 	gram06: pos = array([ 0.45462963, -0.30462963])
+95.4307 	EXP 	gram06: pos = array([ 0.45      , -0.32314815])
+95.4781 	EXP 	gram06: pos = array([ 0.44907407, -0.3287037 ])
+95.4860 	DATA 	Mouse:  Left button up, pos=(1445,184)
+95.9286 	DATA 	Mouse: Left button down, pos=(1168,323)
+95.9902 	EXP 	gram12: pos = array([ 0.19259259, -0.20092593])
+96.0228 	EXP 	gram12: pos = array([ 0.19259259, -0.20092593])
+96.0566 	EXP 	gram12: pos = array([ 0.19259259, -0.22962963])
+96.0965 	EXP 	gram12: pos = array([ 0.19259259, -0.2537037 ])
+96.1320 	EXP 	gram12: pos = array([ 0.19259259, -0.27592593])
+96.1571 	EXP 	gram12: pos = array([ 0.19259259, -0.27777778])
+96.1904 	EXP 	gram12: pos = array([ 0.19259259, -0.28055556])
+96.2250 	EXP 	gram12: pos = array([ 0.19259259, -0.28240741])
+96.2574 	EXP 	gram12: pos = array([ 0.19259259, -0.28425926])
+96.2744 	DATA 	Mouse:  Left button up, pos=(1168,233)
+96.7645 	DATA 	Mouse: Left button down, pos=(734,369)
+96.8338 	EXP 	gram03: pos = array([-0.20925926, -0.15833333])
+96.8798 	EXP 	gram03: pos = array([-0.20925926, -0.15833333])
+96.9174 	EXP 	gram03: pos = array([-0.21018519, -0.18981481])
+96.9636 	EXP 	gram03: pos = array([-0.21388889, -0.21296296])
+97.0016 	EXP 	gram03: pos = array([-0.21666667, -0.225     ])
+97.0462 	EXP 	gram03: pos = array([-0.21851852, -0.23240741])
+97.0857 	EXP 	gram03: pos = array([-0.21851852, -0.23425926])
+97.1101 	DATA 	Mouse:  Left button up, pos=(724,285)
+97.5880 	DATA 	Mouse: Left button down, pos=(451,386)
+97.6646 	EXP 	gram09: pos = array([-0.4712963 , -0.14259259])
+97.7024 	EXP 	gram09: pos = array([-0.4712963 , -0.16296296])
+97.7467 	EXP 	gram09: pos = array([-0.4712963 , -0.18888889])
+97.7848 	EXP 	gram09: pos = array([-0.47314815, -0.21388889])
+97.8312 	EXP 	gram09: pos = array([-0.47685185, -0.23611111])
+97.8696 	EXP 	gram09: pos = array([-0.4787037 , -0.25092593])
+97.9148 	EXP 	gram09: pos = array([-0.47962963, -0.25648148])
+97.9511 	EXP 	gram09: pos = array([-0.48148148, -0.25740741])
+97.9756 	DATA 	Mouse:  Left button up, pos=(440,262)
+98.4510 	DATA 	Mouse: Left button down, pos=(232,335)
+98.5318 	EXP 	gram10: pos = array([-0.67407407, -0.18981481])
+98.5707 	EXP 	gram10: pos = array([-0.67685185, -0.22407407])
+98.6152 	EXP 	gram10: pos = array([-0.67685185, -0.26018519])
+98.6655 	EXP 	gram10: pos = array([-0.6787037 , -0.27962963])
+98.7026 	EXP 	gram10: pos = array([-0.6787037 , -0.29351852])
+98.7494 	EXP 	gram10: pos = array([-0.6787037 , -0.30648148])
+98.7852 	EXP 	gram10: pos = array([-0.6787037 , -0.30833333])
+98.8111 	DATA 	Mouse:  Left button up, pos=(227,207)
+99.4270 	DATA 	Mouse: Left button down, pos=(210,628)
+99.5013 	EXP 	gram08: pos = array([-0.7 ,  0.15])
+99.5424 	EXP 	gram08: pos = array([-0.70092593,  0.1712963 ])
+99.5784 	EXP 	gram08: pos = array([-0.70092593,  0.19351852])
+99.6146 	EXP 	gram08: pos = array([-0.7       ,  0.21111111])
+99.6475 	EXP 	gram08: pos = array([-0.69907407,  0.22777778])
+99.6799 	EXP 	gram08: pos = array([-0.69722222,  0.24722222])
+99.7128 	EXP 	gram08: pos = array([-0.69537037,  0.25740741])
+99.7502 	EXP 	gram08: pos = array([-0.69537037,  0.26018519])
+99.7575 	DATA 	Mouse:  Left button up, pos=(209,821)
+100.3532 	DATA 	Mouse: Left button down, pos=(514,694)
+100.4255 	EXP 	gram04: pos = array([-0.41296296,  0.15740741])
+100.4673 	EXP 	gram04: pos = array([-0.42037037,  0.20092593])
+100.5059 	EXP 	gram04: pos = array([-0.4287037 ,  0.23055556])
+100.5498 	EXP 	gram04: pos = array([-0.43425926,  0.25462963])
+100.5932 	EXP 	gram04: pos = array([-0.43888889,  0.27222222])
+100.6349 	EXP 	gram04: pos = array([-0.44166667,  0.28425926])
+100.6843 	EXP 	gram04: pos = array([-0.44259259,  0.28703704])
+100.7204 	EXP 	gram04: pos = array([-0.44259259,  0.28703704])
+100.7455 	DATA 	Mouse:  Left button up, pos=(482,850)
+101.2042 	DATA 	Mouse: Left button down, pos=(753,716)
+101.3065 	EXP 	gram07: pos = array([-0.19166667,  0.16296296])
+101.3524 	EXP 	gram07: pos = array([-0.18796296,  0.19722222])
+101.3969 	EXP 	gram07: pos = array([-0.18518519,  0.24537037])
+101.4289 	EXP 	gram07: pos = array([-0.18611111,  0.25462963])
+101.4659 	EXP 	gram07: pos = array([-0.18703704,  0.26111111])
+101.4955 	EXP 	gram07: pos = array([-0.18796296,  0.26944444])
+101.5293 	EXP 	gram07: pos = array([-0.18888889,  0.27407407])
+101.5685 	EXP 	gram07: pos = array([-0.19074074,  0.275     ])
+101.6055 	EXP 	gram07: pos = array([-0.19074074,  0.275     ])
+101.6140 	DATA 	Mouse:  Left button up, pos=(754,837)
+102.2306 	DATA 	Mouse: Left button down, pos=(1239,580)
+102.2809 	EXP 	gram02: pos = array([0.24814815, 0.08703704])
+102.3136 	EXP 	gram02: pos = array([0.24351852, 0.11203704])
+102.3561 	EXP 	gram02: pos = array([0.23981481, 0.13518519])
+102.4032 	EXP 	gram02: pos = array([0.23611111, 0.15555556])
+102.4417 	EXP 	gram02: pos = array([0.23611111, 0.16666667])
+102.4887 	EXP 	gram02: pos = array([0.23333333, 0.18425926])
+102.5355 	EXP 	gram02: pos = array([0.23333333, 0.18981481])
+102.5634 	EXP 	gram02: pos = array([0.23333333, 0.19074074])
+102.5970 	EXP 	gram02: pos = array([0.23148148, 0.19537037])
+102.6358 	EXP 	gram02: pos = array([0.22314815, 0.24537037])
+102.6745 	EXP 	gram02: pos = array([0.21759259, 0.26759259])
+102.6830 	DATA 	Mouse:  Left button up, pos=(1195,829)
+103.1620 	DATA 	Mouse: Left button down, pos=(1428,619)
+103.2707 	EXP 	gram01: pos = array([0.43333333, 0.07314815])
+103.3082 	EXP 	gram01: pos = array([0.43611111, 0.10833333])
+103.3536 	EXP 	gram01: pos = array([0.44074074, 0.1537037 ])
+103.3927 	EXP 	gram01: pos = array([0.44722222, 0.19351852])
+103.4372 	EXP 	gram01: pos = array([0.45      , 0.22222222])
+103.4749 	EXP 	gram01: pos = array([0.45      , 0.22962963])
+103.5192 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.5572 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.6026 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.6405 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.6657 	DATA 	Mouse:  Left button up, pos=(1446,789)
+103.7792 	DATA 	Mouse: Left button down, pos=(1446,789)
+103.8819 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.9151 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.9484 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+103.9827 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+104.0169 	EXP 	gram01: pos = array([0.45      , 0.23055556])
+104.0255 	DATA 	Mouse:  Left button up, pos=(1446,789)
+104.4344 	DATA 	Mouse: Left button down, pos=(1442,738)
+104.5422 	EXP 	gram01: pos = array([0.4462963 , 0.18796296])
+104.5891 	EXP 	gram01: pos = array([0.44722222, 0.22314815])
+104.6273 	EXP 	gram01: pos = array([0.45      , 0.24166667])
+104.6715 	EXP 	gram01: pos = array([0.45092593, 0.25277778])
+104.7127 	EXP 	gram01: pos = array([0.45277778, 0.26296296])
+104.7559 	EXP 	gram01: pos = array([0.45277778, 0.26574074])
+104.7929 	EXP 	gram01: pos = array([0.45277778, 0.26666667])
+104.8386 	EXP 	gram01: pos = array([0.45277778, 0.26759259])
+104.8747 	EXP 	gram01: pos = array([0.45277778, 0.26759259])
+104.9000 	DATA 	Mouse:  Left button up, pos=(1449,829)
+105.2964 	DATA 	Mouse: Left button down, pos=(1667,667)
+105.3736 	EXP 	gram05: pos = array([0.65462963, 0.11759259])
+105.4228 	EXP 	gram05: pos = array([0.65925926, 0.16574074])
+105.4617 	EXP 	gram05: pos = array([0.66111111, 0.2037037 ])
+105.5082 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.5788 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 88.95665400000871 seconds', units='height', win=Window(...), wrapWidth=1)
+105.5934 	EXP 	gram05: pos = array([0.66111111, 0.23240741])
+105.5934 	EXP 	continue_text: autoDraw = True
+105.5934 	EXP 	trial_time: autoDraw = True
+105.6020 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.6171 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.06722309999168 seconds', units='height', win=Window(...), wrapWidth=1)
+105.6312 	EXP 	gram05: pos = array([0.65925926, 0.25277778])
+105.6312 	EXP 	continue_text: autoDraw = True
+105.6312 	EXP 	trial_time: autoDraw = True
+105.6393 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.6527 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.10503289999906 seconds', units='height', win=Window(...), wrapWidth=1)
+105.6670 	EXP 	gram05: pos = array([0.65925926, 0.25740741])
+105.6670 	EXP 	continue_text: autoDraw = True
+105.6670 	EXP 	trial_time: autoDraw = True
+105.6748 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.6888 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.14082420000341 seconds', units='height', win=Window(...), wrapWidth=1)
+105.7032 	EXP 	gram05: pos = array([0.65925926, 0.26388889])
+105.7032 	EXP 	continue_text: autoDraw = True
+105.7032 	EXP 	trial_time: autoDraw = True
+105.7120 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.7261 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.17699529998936 seconds', units='height', win=Window(...), wrapWidth=1)
+105.7414 	EXP 	gram05: pos = array([0.66203704, 0.26944444])
+105.7414 	EXP 	continue_text: autoDraw = True
+105.7414 	EXP 	trial_time: autoDraw = True
+105.7495 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.7620 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.21517079998739 seconds', units='height', win=Window(...), wrapWidth=1)
+105.7778 	EXP 	gram05: pos = array([0.66666667, 0.27777778])
+105.7778 	EXP 	continue_text: autoDraw = True
+105.7778 	EXP 	trial_time: autoDraw = True
+105.7865 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.7991 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.25158660000307 seconds', units='height', win=Window(...), wrapWidth=1)
+105.8156 	EXP 	gram05: pos = array([0.67222222, 0.28611111])
+105.8156 	EXP 	continue_text: autoDraw = True
+105.8156 	EXP 	trial_time: autoDraw = True
+105.8234 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.8382 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.28946279999218 seconds', units='height', win=Window(...), wrapWidth=1)
+105.8545 	EXP 	gram05: pos = array([0.67407407, 0.28981481])
+105.8545 	EXP 	continue_text: autoDraw = True
+105.8545 	EXP 	trial_time: autoDraw = True
+105.8553 	DATA 	Mouse:  Left button up, pos=(1688,853)
+105.8616 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.8752 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.32833049999317 seconds', units='height', win=Window(...), wrapWidth=1)
+105.8926 	EXP 	continue_text: autoDraw = True
+105.8926 	EXP 	trial_time: autoDraw = True
+105.8997 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.9114 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.3663975999807 seconds', units='height', win=Window(...), wrapWidth=1)
+105.9296 	EXP 	continue_text: autoDraw = True
+105.9296 	EXP 	trial_time: autoDraw = True
+105.9366 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.9495 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.40340119999018 seconds', units='height', win=Window(...), wrapWidth=1)
+105.9678 	EXP 	continue_text: autoDraw = True
+105.9678 	EXP 	trial_time: autoDraw = True
+105.9747 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+105.9899 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.44163319998188 seconds', units='height', win=Window(...), wrapWidth=1)
+106.0082 	EXP 	continue_text: autoDraw = True
+106.0082 	EXP 	trial_time: autoDraw = True
+106.0146 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.0287 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.48196979999193 seconds', units='height', win=Window(...), wrapWidth=1)
+106.0483 	EXP 	continue_text: autoDraw = True
+106.0483 	EXP 	trial_time: autoDraw = True
+106.0550 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.0688 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.5223110000079 seconds', units='height', win=Window(...), wrapWidth=1)
+106.0883 	EXP 	continue_text: autoDraw = True
+106.0883 	EXP 	trial_time: autoDraw = True
+106.0947 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.1073 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.56211480000638 seconds', units='height', win=Window(...), wrapWidth=1)
+106.1272 	EXP 	continue_text: autoDraw = True
+106.1272 	EXP 	trial_time: autoDraw = True
+106.1346 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.1466 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.6010095999809 seconds', units='height', win=Window(...), wrapWidth=1)
+106.1676 	EXP 	continue_text: autoDraw = True
+106.1676 	EXP 	trial_time: autoDraw = True
+106.1739 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.1878 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.64138709998224 seconds', units='height', win=Window(...), wrapWidth=1)
+106.2086 	EXP 	continue_text: autoDraw = True
+106.2086 	EXP 	trial_time: autoDraw = True
+106.2152 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.2282 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.68244579999009 seconds', units='height', win=Window(...), wrapWidth=1)
+106.2504 	EXP 	continue_text: autoDraw = True
+106.2504 	EXP 	trial_time: autoDraw = True
+106.2566 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.2710 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.72421889999532 seconds', units='height', win=Window(...), wrapWidth=1)
+106.2934 	EXP 	continue_text: autoDraw = True
+106.2934 	EXP 	trial_time: autoDraw = True
+106.3004 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.3134 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.76724069999182 seconds', units='height', win=Window(...), wrapWidth=1)
+106.3370 	EXP 	continue_text: autoDraw = True
+106.3370 	EXP 	trial_time: autoDraw = True
+106.3435 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.3568 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.81085509998957 seconds', units='height', win=Window(...), wrapWidth=1)
+106.3796 	EXP 	continue_text: autoDraw = True
+106.3796 	EXP 	trial_time: autoDraw = True
+106.3867 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.3990 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.85345579998102 seconds', units='height', win=Window(...), wrapWidth=1)
+106.4237 	EXP 	continue_text: autoDraw = True
+106.4237 	EXP 	trial_time: autoDraw = True
+106.4308 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.4456 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.89747880000505 seconds', units='height', win=Window(...), wrapWidth=1)
+106.4723 	EXP 	continue_text: autoDraw = True
+106.4723 	EXP 	trial_time: autoDraw = True
+106.4797 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.4962 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.94616619998123 seconds', units='height', win=Window(...), wrapWidth=1)
+106.5228 	EXP 	continue_text: autoDraw = True
+106.5228 	EXP 	trial_time: autoDraw = True
+106.5298 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.5442 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 89.99657069999375 seconds', units='height', win=Window(...), wrapWidth=1)
+106.5713 	EXP 	continue_text: autoDraw = True
+106.5713 	EXP 	trial_time: autoDraw = True
+106.5789 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.5940 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.04514699999709 seconds', units='height', win=Window(...), wrapWidth=1)
+106.6214 	EXP 	continue_text: autoDraw = True
+106.6214 	EXP 	trial_time: autoDraw = True
+106.6288 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.6450 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.09521870000754 seconds', units='height', win=Window(...), wrapWidth=1)
+106.6723 	EXP 	continue_text: autoDraw = True
+106.6723 	EXP 	trial_time: autoDraw = True
+106.6786 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.6913 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.14606030000141 seconds', units='height', win=Window(...), wrapWidth=1)
+106.7179 	EXP 	continue_text: autoDraw = True
+106.7179 	EXP 	trial_time: autoDraw = True
+106.7243 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.7376 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.19170039999881 seconds', units='height', win=Window(...), wrapWidth=1)
+106.7642 	EXP 	continue_text: autoDraw = True
+106.7642 	EXP 	trial_time: autoDraw = True
+106.7712 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.7816 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.23799969998072 seconds', units='height', win=Window(...), wrapWidth=1)
+106.8093 	EXP 	continue_text: autoDraw = True
+106.8093 	EXP 	trial_time: autoDraw = True
+106.8158 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.8273 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.2830985999899 seconds', units='height', win=Window(...), wrapWidth=1)
+106.8559 	EXP 	continue_text: autoDraw = True
+106.8559 	EXP 	trial_time: autoDraw = True
+106.8620 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.8747 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.32969449998927 seconds', units='height', win=Window(...), wrapWidth=1)
+106.9031 	EXP 	continue_text: autoDraw = True
+106.9031 	EXP 	trial_time: autoDraw = True
+106.9094 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.9231 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.37692759998026 seconds', units='height', win=Window(...), wrapWidth=1)
+106.9518 	EXP 	continue_text: autoDraw = True
+106.9518 	EXP 	trial_time: autoDraw = True
+106.9576 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+106.9688 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.42560630000662 seconds', units='height', win=Window(...), wrapWidth=1)
+106.9961 	EXP 	continue_text: autoDraw = True
+106.9961 	EXP 	trial_time: autoDraw = True
+107.0037 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.0160 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.46995400000014 seconds', units='height', win=Window(...), wrapWidth=1)
+107.0465 	EXP 	continue_text: autoDraw = True
+107.0465 	EXP 	trial_time: autoDraw = True
+107.0544 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.0701 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.52037839998957 seconds', units='height', win=Window(...), wrapWidth=1)
+107.1029 	EXP 	continue_text: autoDraw = True
+107.1029 	EXP 	trial_time: autoDraw = True
+107.1097 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.1249 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.57672919999459 seconds', units='height', win=Window(...), wrapWidth=1)
+107.1566 	EXP 	continue_text: autoDraw = True
+107.1566 	EXP 	trial_time: autoDraw = True
+107.1633 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.1755 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.63055559998611 seconds', units='height', win=Window(...), wrapWidth=1)
+107.2063 	EXP 	continue_text: autoDraw = True
+107.2063 	EXP 	trial_time: autoDraw = True
+107.2136 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.2284 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.68009409998194 seconds', units='height', win=Window(...), wrapWidth=1)
+107.2629 	EXP 	continue_text: autoDraw = True
+107.2629 	EXP 	trial_time: autoDraw = True
+107.2714 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.2854 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.73670539999148 seconds', units='height', win=Window(...), wrapWidth=1)
+107.3190 	EXP 	continue_text: autoDraw = True
+107.3190 	EXP 	trial_time: autoDraw = True
+107.3253 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.3387 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.79280219998327 seconds', units='height', win=Window(...), wrapWidth=1)
+107.3682 	EXP 	continue_text: autoDraw = True
+107.3682 	EXP 	trial_time: autoDraw = True
+107.3745 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.3880 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.84204210000462 seconds', units='height', win=Window(...), wrapWidth=1)
+107.4178 	EXP 	continue_text: autoDraw = True
+107.4178 	EXP 	trial_time: autoDraw = True
+107.4242 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.4390 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.89161649998277 seconds', units='height', win=Window(...), wrapWidth=1)
+107.4708 	EXP 	continue_text: autoDraw = True
+107.4708 	EXP 	trial_time: autoDraw = True
+107.4792 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.4918 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.94467649998842 seconds', units='height', win=Window(...), wrapWidth=1)
+107.5221 	EXP 	continue_text: autoDraw = True
+107.5221 	EXP 	trial_time: autoDraw = True
+107.5285 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.5404 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 90.99586560000898 seconds', units='height', win=Window(...), wrapWidth=1)
+107.5716 	EXP 	continue_text: autoDraw = True
+107.5716 	EXP 	trial_time: autoDraw = True
+107.5782 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.5934 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.04540239999187 seconds', units='height', win=Window(...), wrapWidth=1)
+107.6249 	EXP 	continue_text: autoDraw = True
+107.6249 	EXP 	trial_time: autoDraw = True
+107.6328 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.6457 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.09874069999205 seconds', units='height', win=Window(...), wrapWidth=1)
+107.6755 	EXP 	continue_text: autoDraw = True
+107.6755 	EXP 	trial_time: autoDraw = True
+107.6818 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.6954 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.14931019998039 seconds', units='height', win=Window(...), wrapWidth=1)
+107.7265 	EXP 	continue_text: autoDraw = True
+107.7265 	EXP 	trial_time: autoDraw = True
+107.7330 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.7457 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.20030629998655 seconds', units='height', win=Window(...), wrapWidth=1)
+107.7775 	EXP 	continue_text: autoDraw = True
+107.7775 	EXP 	trial_time: autoDraw = True
+107.7846 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.7985 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.25131339998916 seconds', units='height', win=Window(...), wrapWidth=1)
+107.8308 	EXP 	continue_text: autoDraw = True
+107.8308 	EXP 	trial_time: autoDraw = True
+107.8382 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.8506 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.30464439999196 seconds', units='height', win=Window(...), wrapWidth=1)
+107.8841 	EXP 	continue_text: autoDraw = True
+107.8841 	EXP 	trial_time: autoDraw = True
+107.8905 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.9033 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.35795309999958 seconds', units='height', win=Window(...), wrapWidth=1)
+107.9371 	EXP 	continue_text: autoDraw = True
+107.9371 	EXP 	trial_time: autoDraw = True
+107.9438 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+107.9579 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.41088389998185 seconds', units='height', win=Window(...), wrapWidth=1)
+107.9921 	EXP 	continue_text: autoDraw = True
+107.9921 	EXP 	trial_time: autoDraw = True
+107.9987 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.0113 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.46589839999797 seconds', units='height', win=Window(...), wrapWidth=1)
+108.0467 	EXP 	continue_text: autoDraw = True
+108.0467 	EXP 	trial_time: autoDraw = True
+108.0551 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.0686 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.5205456999829 seconds', units='height', win=Window(...), wrapWidth=1)
+108.0997 	EXP 	continue_text: autoDraw = True
+108.0997 	EXP 	trial_time: autoDraw = True
+108.1060 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.1167 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.57348089999869 seconds', units='height', win=Window(...), wrapWidth=1)
+108.1512 	EXP 	continue_text: autoDraw = True
+108.1512 	EXP 	trial_time: autoDraw = True
+108.1575 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.1701 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.6249559999851 seconds', units='height', win=Window(...), wrapWidth=1)
+108.2060 	EXP 	continue_text: autoDraw = True
+108.2060 	EXP 	trial_time: autoDraw = True
+108.2130 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.2263 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.67979930000729 seconds', units='height', win=Window(...), wrapWidth=1)
+108.2637 	EXP 	continue_text: autoDraw = True
+108.2637 	EXP 	trial_time: autoDraw = True
+108.2714 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.2845 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.73751959999208 seconds', units='height', win=Window(...), wrapWidth=1)
+108.3221 	EXP 	continue_text: autoDraw = True
+108.3221 	EXP 	trial_time: autoDraw = True
+108.3288 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.3408 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.79594369998085 seconds', units='height', win=Window(...), wrapWidth=1)
+108.3790 	EXP 	continue_text: autoDraw = True
+108.3790 	EXP 	trial_time: autoDraw = True
+108.3860 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.3985 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.85277880000649 seconds', units='height', win=Window(...), wrapWidth=1)
+108.4385 	EXP 	continue_text: autoDraw = True
+108.4385 	EXP 	trial_time: autoDraw = True
+108.4456 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.4633 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.91227319999598 seconds', units='height', win=Window(...), wrapWidth=1)
+108.5074 	EXP 	continue_text: autoDraw = True
+108.5074 	EXP 	trial_time: autoDraw = True
+108.5136 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.5255 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 91.98116979998304 seconds', units='height', win=Window(...), wrapWidth=1)
+108.5532 	DATA 	Mouse: Left button down, pos=(891,530)
+108.5633 	EXP 	continue_text: autoDraw = True
+108.5633 	EXP 	trial_time: autoDraw = True
+108.5746 	EXP 	Created continue_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='continue_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Continue', units='height', win=Window(...), wrapWidth=1)
+108.5861 	EXP 	Created trial_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='It took you 92.03725699998904 seconds', units='height', win=Window(...), wrapWidth=1)
+108.8115 	DATA 	Mouse:  Left button up, pos=(891,530)
+108.8184 	EXP 	continue_text: autoDraw = True
+108.8184 	EXP 	trial_time: autoDraw = True
+108.8184 	EXP 	one: autoDraw = False
+108.8184 	EXP 	two: autoDraw = False
+108.8184 	EXP 	three: autoDraw = False
+108.8184 	EXP 	seven: autoDraw = False
+108.8184 	EXP 	eight: autoDraw = False
+108.8184 	EXP 	nine: autoDraw = False
+108.8184 	EXP 	four: autoDraw = False
+108.8184 	EXP 	five: autoDraw = False
+108.8184 	EXP 	six: autoDraw = False
+108.8184 	EXP 	ten: autoDraw = False
+108.8184 	EXP 	eleven: autoDraw = False
+108.8184 	EXP 	twelve: autoDraw = False
+108.8184 	EXP 	gram01: autoDraw = False
+108.8184 	EXP 	gram02: autoDraw = False
+108.8184 	EXP 	gram03: autoDraw = False
+108.8184 	EXP 	gram04: autoDraw = False
+108.8184 	EXP 	gram05: autoDraw = False
+108.8184 	EXP 	gram06: autoDraw = False
+108.8184 	EXP 	gram07: autoDraw = False
+108.8184 	EXP 	gram08: autoDraw = False
+108.8184 	EXP 	gram09: autoDraw = False
+108.8184 	EXP 	gram10: autoDraw = False
+108.8184 	EXP 	gram11: autoDraw = False
+108.8184 	EXP 	gram12: autoDraw = False
+108.8184 	EXP 	easy_succ: autoDraw = False
+108.8184 	EXP 	one_2: autoDraw = True
+108.8184 	EXP 	two_2: autoDraw = True
+108.8184 	EXP 	three_2: autoDraw = True
+108.8184 	EXP 	seven_2: autoDraw = True
+108.8184 	EXP 	eight_2: autoDraw = True
+108.8184 	EXP 	nine_2: autoDraw = True
+108.8184 	EXP 	four_2: autoDraw = True
+108.8184 	EXP 	five_2: autoDraw = True
+108.8184 	EXP 	six_2: autoDraw = True
+108.8184 	EXP 	ten_2: autoDraw = True
+108.8184 	EXP 	eleven_2: autoDraw = True
+108.8184 	EXP 	twelve_2: autoDraw = True
+109.0814 	EXP 	gram01_2: autoDraw = True
+109.0814 	EXP 	gram02_2: autoDraw = True
+109.0814 	EXP 	gram03_2: autoDraw = True
+109.0814 	EXP 	gram04_2: autoDraw = True
+109.0814 	EXP 	gram05_2: autoDraw = True
+109.0814 	EXP 	gram06_2: autoDraw = True
+109.0814 	EXP 	gram07_2: autoDraw = True
+109.0814 	EXP 	gram08_2: autoDraw = True
+109.0814 	EXP 	gram09_2: autoDraw = True
+109.0814 	EXP 	gram10_2: autoDraw = True
+109.0814 	EXP 	gram11_2: autoDraw = True
+109.0814 	EXP 	gram12_2: autoDraw = True
+109.0814 	EXP 	easy_succ_2: autoDraw = True
+110.4029 	DATA 	Mouse: Left button down, pos=(566,541)
+110.4936 	DATA 	Mouse:  Left button up, pos=(566,541)
+111.1029 	DATA 	Mouse: Left button down, pos=(518,521)
+111.1095 	EXP 	one_2: autoDraw = False
+111.1095 	EXP 	two_2: autoDraw = False
+111.1095 	EXP 	three_2: autoDraw = False
+111.1095 	EXP 	seven_2: autoDraw = False
+111.1095 	EXP 	eight_2: autoDraw = False
+111.1095 	EXP 	nine_2: autoDraw = False
+111.1095 	EXP 	four_2: autoDraw = False
+111.1095 	EXP 	five_2: autoDraw = False
+111.1095 	EXP 	six_2: autoDraw = False
+111.1095 	EXP 	ten_2: autoDraw = False
+111.1095 	EXP 	eleven_2: autoDraw = False
+111.1095 	EXP 	twelve_2: autoDraw = False
+111.1095 	EXP 	gram01_2: autoDraw = False
+111.1095 	EXP 	gram02_2: autoDraw = False
+111.1095 	EXP 	gram03_2: autoDraw = False
+111.1095 	EXP 	gram04_2: autoDraw = False
+111.1095 	EXP 	gram05_2: autoDraw = False
+111.1095 	EXP 	gram06_2: autoDraw = False
+111.1095 	EXP 	gram07_2: autoDraw = False
+111.1095 	EXP 	gram08_2: autoDraw = False
+111.1095 	EXP 	gram09_2: autoDraw = False
+111.1095 	EXP 	gram10_2: autoDraw = False
+111.1095 	EXP 	gram11_2: autoDraw = False
+111.1095 	EXP 	gram12_2: autoDraw = False
+111.1095 	EXP 	easy_succ_2: autoDraw = False
+111.1095 	EXP 	one_3: autoDraw = True
+111.1095 	EXP 	two_3: autoDraw = True
+111.1095 	EXP 	three_3: autoDraw = True
+111.1095 	EXP 	seven_3: autoDraw = True
+111.1095 	EXP 	eight_3: autoDraw = True
+111.1095 	EXP 	nine_3: autoDraw = True
+111.1095 	EXP 	four_3: autoDraw = True
+111.1095 	EXP 	five_3: autoDraw = True
+111.1095 	EXP 	six_3: autoDraw = True
+111.1095 	EXP 	ten_3: autoDraw = True
+111.1095 	EXP 	eleven_3: autoDraw = True
+111.1095 	EXP 	twelve_3: autoDraw = True
+111.4341 	DATA 	Mouse:  Left button up, pos=(518,521)
+111.4408 	EXP 	gram01_3: autoDraw = True
+111.4408 	EXP 	gram02_3: autoDraw = True
+111.4408 	EXP 	gram03_3: autoDraw = True
+111.4408 	EXP 	gram04_3: autoDraw = True
+111.4408 	EXP 	gram05_3: autoDraw = True
+111.4408 	EXP 	gram06_3: autoDraw = True
+111.4408 	EXP 	gram07_3: autoDraw = True
+111.4408 	EXP 	gram08_3: autoDraw = True
+111.4408 	EXP 	gram09_3: autoDraw = True
+111.4408 	EXP 	gram10_3: autoDraw = True
+111.4408 	EXP 	gram11_3: autoDraw = True
+111.4408 	EXP 	gram12_3: autoDraw = True
+111.4408 	EXP 	easy_succ_3: autoDraw = True
+111.9056 	DATA 	Mouse: Left button down, pos=(564,534)
+111.9884 	DATA 	Mouse:  Left button up, pos=(564,534)
+111.9956 	EXP 	one_3: autoDraw = False
+111.9956 	EXP 	two_3: autoDraw = False
+111.9956 	EXP 	three_3: autoDraw = False
+111.9956 	EXP 	seven_3: autoDraw = False
+111.9956 	EXP 	eight_3: autoDraw = False
+111.9956 	EXP 	nine_3: autoDraw = False
+111.9956 	EXP 	four_3: autoDraw = False
+111.9956 	EXP 	five_3: autoDraw = False
+111.9956 	EXP 	six_3: autoDraw = False
+111.9956 	EXP 	ten_3: autoDraw = False
+111.9956 	EXP 	eleven_3: autoDraw = False
+111.9956 	EXP 	twelve_3: autoDraw = False
+111.9956 	EXP 	gram01_3: autoDraw = False
+111.9956 	EXP 	gram02_3: autoDraw = False
+111.9956 	EXP 	gram03_3: autoDraw = False
+111.9956 	EXP 	gram04_3: autoDraw = False
+111.9956 	EXP 	gram05_3: autoDraw = False
+111.9956 	EXP 	gram06_3: autoDraw = False
+111.9956 	EXP 	gram07_3: autoDraw = False
+111.9956 	EXP 	gram08_3: autoDraw = False
+111.9956 	EXP 	gram09_3: autoDraw = False
+111.9956 	EXP 	gram10_3: autoDraw = False
+111.9956 	EXP 	gram11_3: autoDraw = False
+111.9956 	EXP 	gram12_3: autoDraw = False
+111.9956 	EXP 	easy_succ_3: autoDraw = False
+112.0574 	EXP 	window1: mouseVisible = True

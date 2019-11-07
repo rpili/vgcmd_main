@@ -1,0 +1,7 @@
+(-0.70, 0.30),(-0.45, 0.30),(-0.20, 0.30),(0.20, 0.30),(0.45, 0.30),(0.70, 0.30),
+(-0.70, -0.30),(-0.45, -0.30),(-0.20, -0.30),(0.20, -0.30),(0.45, -0.30),(0.70, -0.30),
+(0.22, 0.22)
+/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/.png
+/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram01.png
+https://vector.me/search/tangram/2
+for each one, if within +/- .11 for each dimension, then it is in that slot.
