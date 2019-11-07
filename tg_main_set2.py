@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.2.4),
-    on November 06, 2019, at 23:43
+    on November 06, 2019, at 23:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -25,6 +25,9 @@ from numpy import (sin, cos, tan, log, log10, pi, average,
 from numpy.random import random, randint, normal, shuffle
 import os  # handy system and path functions
 import sys  # to get file system encoding
+
+import pathlib
+stim_folder = pathlib.Path("stimuli")
 
 from psychopy.hardware import keyboard
 
@@ -49,7 +52,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\Ryan Pili\\OneDrive\\GS\\CECLAB\\vgcmd_main\\tg_main_set2_lastrun.py',
+    originPath='C:\\Users\\Ryan Pili\\OneDrive\\GS\\CECLAB\\vgcmd_main\\tg_main_set2.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -116,7 +119,7 @@ trial_4Clock = core.Clock()
 one_4 = visual.ImageStim(
     win=win,
     name='one_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/one.png', mask=None,
+    image=str(stim_folder) + '/one.png', mask=None,
     ori=0, pos=(-.70, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -127,7 +130,7 @@ mouse_6.mouseClock = core.Clock()
 two_4 = visual.ImageStim(
     win=win,
     name='two_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/two.png', mask=None,
+    image=str(stim_folder) + '/two.png', mask=None,
     ori=0, pos=(-.45, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -135,7 +138,7 @@ two_4 = visual.ImageStim(
 three_4 = visual.ImageStim(
     win=win,
     name='three_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/three.png', mask=None,
+    image=str(stim_folder) + '/three.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -143,7 +146,7 @@ three_4 = visual.ImageStim(
 seven_4 = visual.ImageStim(
     win=win,
     name='seven_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/seven.png', mask=None,
+    image=str(stim_folder) + '/seven.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -151,7 +154,7 @@ seven_4 = visual.ImageStim(
 eight_4 = visual.ImageStim(
     win=win,
     name='eight_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eight.png', mask=None,
+    image=str(stim_folder) + '/eight.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -159,7 +162,7 @@ eight_4 = visual.ImageStim(
 nine_4 = visual.ImageStim(
     win=win,
     name='nine_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/nine.png', mask=None,
+    image=str(stim_folder) + '/nine.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -167,7 +170,7 @@ nine_4 = visual.ImageStim(
 four_4 = visual.ImageStim(
     win=win,
     name='four_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/four.png', mask=None,
+    image=str(stim_folder) + '/four.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -175,7 +178,7 @@ four_4 = visual.ImageStim(
 five_4 = visual.ImageStim(
     win=win,
     name='five_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/five.png', mask=None,
+    image=str(stim_folder) + '/five.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -183,7 +186,7 @@ five_4 = visual.ImageStim(
 six_4 = visual.ImageStim(
     win=win,
     name='six_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/six.png', mask=None,
+    image=str(stim_folder) + '/six.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -191,7 +194,7 @@ six_4 = visual.ImageStim(
 ten_4 = visual.ImageStim(
     win=win,
     name='ten_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/ten.png', mask=None,
+    image=str(stim_folder) + '/ten.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -199,7 +202,7 @@ ten_4 = visual.ImageStim(
 eleven_4 = visual.ImageStim(
     win=win,
     name='eleven_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eleven.png', mask=None,
+    image=str(stim_folder) + '/eleven.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -207,7 +210,7 @@ eleven_4 = visual.ImageStim(
 twelve_4 = visual.ImageStim(
     win=win,
     name='twelve_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/twelve.png', mask=None,
+    image=str(stim_folder) + '/twelve.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -294,7 +297,7 @@ hitbox_dict = {('one'): ((-0.62, -0.7799999999999999), (0.38, 0.2199999999999999
 gram13_4 = visual.ImageStim(
     win=win,
     name='gram13_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram13.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram13.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -302,7 +305,7 @@ gram13_4 = visual.ImageStim(
 gram14_4 = visual.ImageStim(
     win=win,
     name='gram14_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram14.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram14.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -310,7 +313,7 @@ gram14_4 = visual.ImageStim(
 gram15_4 = visual.ImageStim(
     win=win,
     name='gram15_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram15.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram15.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -318,7 +321,7 @@ gram15_4 = visual.ImageStim(
 gram16_4 = visual.ImageStim(
     win=win,
     name='gram16_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram16.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram16.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -326,7 +329,7 @@ gram16_4 = visual.ImageStim(
 gram17_4 = visual.ImageStim(
     win=win,
     name='gram17_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram17.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram17.png', mask=None,
     ori=0, pos=(-0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -334,7 +337,7 @@ gram17_4 = visual.ImageStim(
 gram18_4 = visual.ImageStim(
     win=win,
     name='gram18_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram18.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram18.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -342,7 +345,7 @@ gram18_4 = visual.ImageStim(
 gram19_4 = visual.ImageStim(
     win=win,
     name='gram19_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram19.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram19.png', mask=None,
     ori=0, pos=(-0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -350,7 +353,7 @@ gram19_4 = visual.ImageStim(
 gram20_4 = visual.ImageStim(
     win=win,
     name='gram20_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram20.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram20.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -358,7 +361,7 @@ gram20_4 = visual.ImageStim(
 gram21_4 = visual.ImageStim(
     win=win,
     name='gram21_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram21.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram21.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -366,7 +369,7 @@ gram21_4 = visual.ImageStim(
 gram22_4 = visual.ImageStim(
     win=win,
     name='gram22_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram22.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram22.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -374,7 +377,7 @@ gram22_4 = visual.ImageStim(
 gram23_4 = visual.ImageStim(
     win=win,
     name='gram23_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram23.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram23.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -382,7 +385,7 @@ gram23_4 = visual.ImageStim(
 gram24_4 = visual.ImageStim(
     win=win,
     name='gram24_4', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram24.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram24.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -400,7 +403,7 @@ trial_5Clock = core.Clock()
 one_5 = visual.ImageStim(
     win=win,
     name='one_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/one.png', mask=None,
+    image=str(stim_folder) + '/one.png', mask=None,
     ori=0, pos=(-.70, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -411,7 +414,7 @@ mouse_7.mouseClock = core.Clock()
 two_5 = visual.ImageStim(
     win=win,
     name='two_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/two.png', mask=None,
+    image=str(stim_folder) + '/two.png', mask=None,
     ori=0, pos=(-.45, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -419,7 +422,7 @@ two_5 = visual.ImageStim(
 three_5 = visual.ImageStim(
     win=win,
     name='three_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/three.png', mask=None,
+    image=str(stim_folder) + '/three.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -427,7 +430,7 @@ three_5 = visual.ImageStim(
 seven_5 = visual.ImageStim(
     win=win,
     name='seven_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/seven.png', mask=None,
+    image=str(stim_folder) + '/seven.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -435,7 +438,7 @@ seven_5 = visual.ImageStim(
 eight_5 = visual.ImageStim(
     win=win,
     name='eight_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eight.png', mask=None,
+    image=str(stim_folder) + '/eight.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -443,7 +446,7 @@ eight_5 = visual.ImageStim(
 nine_5 = visual.ImageStim(
     win=win,
     name='nine_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/nine.png', mask=None,
+    image=str(stim_folder) + '/nine.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -451,7 +454,7 @@ nine_5 = visual.ImageStim(
 four_5 = visual.ImageStim(
     win=win,
     name='four_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/four.png', mask=None,
+    image=str(stim_folder) + '/four.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -459,7 +462,7 @@ four_5 = visual.ImageStim(
 five_5 = visual.ImageStim(
     win=win,
     name='five_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/five.png', mask=None,
+    image=str(stim_folder) + '/five.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -467,7 +470,7 @@ five_5 = visual.ImageStim(
 six_5 = visual.ImageStim(
     win=win,
     name='six_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/six.png', mask=None,
+    image=str(stim_folder) + '/six.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -475,7 +478,7 @@ six_5 = visual.ImageStim(
 ten_5 = visual.ImageStim(
     win=win,
     name='ten_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/ten.png', mask=None,
+    image=str(stim_folder) + '/ten.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -483,7 +486,7 @@ ten_5 = visual.ImageStim(
 eleven_5 = visual.ImageStim(
     win=win,
     name='eleven_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eleven.png', mask=None,
+    image=str(stim_folder) + '/eleven.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -491,7 +494,7 @@ eleven_5 = visual.ImageStim(
 twelve_5 = visual.ImageStim(
     win=win,
     name='twelve_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/twelve.png', mask=None,
+    image=str(stim_folder) + '/twelve.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -578,7 +581,7 @@ hitbox_dict = {('one'): ((-0.62, -0.7799999999999999), (0.38, 0.2199999999999999
 gram13_5 = visual.ImageStim(
     win=win,
     name='gram13_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram13.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram13.png', mask=None,
     ori=0, pos=(-0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -586,7 +589,7 @@ gram13_5 = visual.ImageStim(
 gram14_5 = visual.ImageStim(
     win=win,
     name='gram14_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram14.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram14.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -594,7 +597,7 @@ gram14_5 = visual.ImageStim(
 gram15_5 = visual.ImageStim(
     win=win,
     name='gram15_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram15.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram15.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -602,7 +605,7 @@ gram15_5 = visual.ImageStim(
 gram16_5 = visual.ImageStim(
     win=win,
     name='gram16_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram16.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram16.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -610,7 +613,7 @@ gram16_5 = visual.ImageStim(
 gram17_5 = visual.ImageStim(
     win=win,
     name='gram17_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram17.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram17.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -618,7 +621,7 @@ gram17_5 = visual.ImageStim(
 gram18_5 = visual.ImageStim(
     win=win,
     name='gram18_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram18.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram18.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -626,7 +629,7 @@ gram18_5 = visual.ImageStim(
 gram19_5 = visual.ImageStim(
     win=win,
     name='gram19_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram19.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram19.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -634,7 +637,7 @@ gram19_5 = visual.ImageStim(
 gram20_5 = visual.ImageStim(
     win=win,
     name='gram20_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram20.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram20.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -642,7 +645,7 @@ gram20_5 = visual.ImageStim(
 gram21_5 = visual.ImageStim(
     win=win,
     name='gram21_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram21.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram21.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -650,7 +653,7 @@ gram21_5 = visual.ImageStim(
 gram22_5 = visual.ImageStim(
     win=win,
     name='gram22_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram22.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram22.png', mask=None,
     ori=0, pos=(-0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -658,7 +661,7 @@ gram22_5 = visual.ImageStim(
 gram23_5 = visual.ImageStim(
     win=win,
     name='gram23_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram23.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram23.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -666,7 +669,7 @@ gram23_5 = visual.ImageStim(
 gram24_5 = visual.ImageStim(
     win=win,
     name='gram24_5', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram24.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram24.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -684,7 +687,7 @@ trial_6Clock = core.Clock()
 one_6 = visual.ImageStim(
     win=win,
     name='one_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/one.png', mask=None,
+    image=str(stim_folder) + '/one.png', mask=None,
     ori=0, pos=(-.70, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -695,7 +698,7 @@ mouse_8.mouseClock = core.Clock()
 two_6 = visual.ImageStim(
     win=win,
     name='two_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/two.png', mask=None,
+    image=str(stim_folder) + '/two.png', mask=None,
     ori=0, pos=(-.45, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -703,7 +706,7 @@ two_6 = visual.ImageStim(
 three_6 = visual.ImageStim(
     win=win,
     name='three_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/three.png', mask=None,
+    image=str(stim_folder) + '/three.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -711,7 +714,7 @@ three_6 = visual.ImageStim(
 seven_6 = visual.ImageStim(
     win=win,
     name='seven_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/seven.png', mask=None,
+    image=str(stim_folder) + '/seven.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -719,7 +722,7 @@ seven_6 = visual.ImageStim(
 eight_6 = visual.ImageStim(
     win=win,
     name='eight_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eight.png', mask=None,
+    image=str(stim_folder) + '/eight.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -727,7 +730,7 @@ eight_6 = visual.ImageStim(
 nine_6 = visual.ImageStim(
     win=win,
     name='nine_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/nine.png', mask=None,
+    image=str(stim_folder) + '/nine.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -735,7 +738,7 @@ nine_6 = visual.ImageStim(
 four_6 = visual.ImageStim(
     win=win,
     name='four_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/four.png', mask=None,
+    image=str(stim_folder) + '/four.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -743,7 +746,7 @@ four_6 = visual.ImageStim(
 five_6 = visual.ImageStim(
     win=win,
     name='five_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/five.png', mask=None,
+    image=str(stim_folder) + '/five.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -751,7 +754,7 @@ five_6 = visual.ImageStim(
 six_6 = visual.ImageStim(
     win=win,
     name='six_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/six.png', mask=None,
+    image=str(stim_folder) + '/six.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -759,7 +762,7 @@ six_6 = visual.ImageStim(
 ten_6 = visual.ImageStim(
     win=win,
     name='ten_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/ten.png', mask=None,
+    image=str(stim_folder) + '/ten.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -767,7 +770,7 @@ ten_6 = visual.ImageStim(
 eleven_6 = visual.ImageStim(
     win=win,
     name='eleven_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eleven.png', mask=None,
+    image=str(stim_folder) + '/eleven.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -775,7 +778,7 @@ eleven_6 = visual.ImageStim(
 twelve_6 = visual.ImageStim(
     win=win,
     name='twelve_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/twelve.png', mask=None,
+    image=str(stim_folder) + '/twelve.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -862,7 +865,7 @@ hitbox_dict = {('one'): ((-0.62, -0.7799999999999999), (0.38, 0.2199999999999999
 gram13_6 = visual.ImageStim(
     win=win,
     name='gram13_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram13.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram13.png', mask=None,
     ori=0, pos=(-.70, .3), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -870,7 +873,7 @@ gram13_6 = visual.ImageStim(
 gram14_6 = visual.ImageStim(
     win=win,
     name='gram14_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram14.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram14.png', mask=None,
     ori=0, pos=(-.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -878,7 +881,7 @@ gram14_6 = visual.ImageStim(
 gram15_6 = visual.ImageStim(
     win=win,
     name='gram15_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram15.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram15.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -886,7 +889,7 @@ gram15_6 = visual.ImageStim(
 gram16_6 = visual.ImageStim(
     win=win,
     name='gram16_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram16.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram16.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -894,7 +897,7 @@ gram16_6 = visual.ImageStim(
 gram17_6 = visual.ImageStim(
     win=win,
     name='gram17_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram17.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram17.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -902,7 +905,7 @@ gram17_6 = visual.ImageStim(
 gram18_6 = visual.ImageStim(
     win=win,
     name='gram18_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram18.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram18.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -910,7 +913,7 @@ gram18_6 = visual.ImageStim(
 gram19_6 = visual.ImageStim(
     win=win,
     name='gram19_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram19.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram19.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -918,7 +921,7 @@ gram19_6 = visual.ImageStim(
 gram20_6 = visual.ImageStim(
     win=win,
     name='gram20_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram20.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram20.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -926,7 +929,7 @@ gram20_6 = visual.ImageStim(
 gram21_6 = visual.ImageStim(
     win=win,
     name='gram21_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram21.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram21.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -934,7 +937,7 @@ gram21_6 = visual.ImageStim(
 gram22_6 = visual.ImageStim(
     win=win,
     name='gram22_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram22.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram22.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -942,7 +945,7 @@ gram22_6 = visual.ImageStim(
 gram23_6 = visual.ImageStim(
     win=win,
     name='gram23_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram23.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram23.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -950,7 +953,7 @@ gram23_6 = visual.ImageStim(
 gram24_6 = visual.ImageStim(
     win=win,
     name='gram24_6', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram24.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram24.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -988,7 +991,7 @@ TIPI_txt = visual.TextStim(win=win, name='TIPI_txt',
 TIPIClock = core.Clock()
 win.allowStencil = True
 tipi_form = visual.Form(win=win, name='tipi_form',
-    items='C:\\Users\\rjpil\\OneDrive\\GS\\CECLAB\\vgcmd_main\\stimuli\\tipi_format.csv',
+    items=str(stim_folder) + '/tipi_format.csv',
     textHeight=0.03,
     randomize=False,
     size=(1, 0.7),
@@ -997,7 +1000,7 @@ tipi_form = visual.Form(win=win, name='tipi_form',
 tipi_scale = visual.ImageStim(
     win=win,
     name='tipi_scale', 
-    image='C:\\Users\\rjpil\\OneDrive\\GS\\CECLAB\\vgcmd_main\\stimuli\\tipi_scale.png', mask=None,
+    image=str(stim_folder) + '/tipi_scale.png', mask=None,
     ori=0, pos=(0, 0.43), size=(0.7, 0.1),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1008,7 +1011,7 @@ trialClock = core.Clock()
 one = visual.ImageStim(
     win=win,
     name='one', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/one.png', mask=None,
+    image=str(stim_folder) + '/one.png', mask=None,
     ori=0, pos=(-.70, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1019,7 +1022,7 @@ mouse_3.mouseClock = core.Clock()
 two = visual.ImageStim(
     win=win,
     name='two', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/two.png', mask=None,
+    image=str(stim_folder) + '/two.png', mask=None,
     ori=0, pos=(-.45, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1027,7 +1030,7 @@ two = visual.ImageStim(
 three = visual.ImageStim(
     win=win,
     name='three', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/three.png', mask=None,
+    image=str(stim_folder) + '/three.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1035,7 +1038,7 @@ three = visual.ImageStim(
 seven = visual.ImageStim(
     win=win,
     name='seven', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/seven.png', mask=None,
+    image=str(stim_folder) + '/seven.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1043,7 +1046,7 @@ seven = visual.ImageStim(
 eight = visual.ImageStim(
     win=win,
     name='eight', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eight.png', mask=None,
+    image=str(stim_folder) + '/eight.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1051,7 +1054,7 @@ eight = visual.ImageStim(
 nine = visual.ImageStim(
     win=win,
     name='nine', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/nine.png', mask=None,
+    image=str(stim_folder) + '/nine.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1059,7 +1062,7 @@ nine = visual.ImageStim(
 four = visual.ImageStim(
     win=win,
     name='four', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/four.png', mask=None,
+    image=str(stim_folder) + '/four.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1067,7 +1070,7 @@ four = visual.ImageStim(
 five = visual.ImageStim(
     win=win,
     name='five', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/five.png', mask=None,
+    image=str(stim_folder) + '/five.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1075,7 +1078,7 @@ five = visual.ImageStim(
 six = visual.ImageStim(
     win=win,
     name='six', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/six.png', mask=None,
+    image=str(stim_folder) + '/six.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1083,7 +1086,7 @@ six = visual.ImageStim(
 ten = visual.ImageStim(
     win=win,
     name='ten', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/ten.png', mask=None,
+    image=str(stim_folder) + '/ten.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1091,7 +1094,7 @@ ten = visual.ImageStim(
 eleven = visual.ImageStim(
     win=win,
     name='eleven', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eleven.png', mask=None,
+    image=str(stim_folder) + '/eleven.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1099,7 +1102,7 @@ eleven = visual.ImageStim(
 twelve = visual.ImageStim(
     win=win,
     name='twelve', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/twelve.png', mask=None,
+    image=str(stim_folder) + '/twelve.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1186,7 +1189,7 @@ hitbox_dict = {('one'): ((-0.62, -0.7799999999999999), (0.38, 0.2199999999999999
 gram01 = visual.ImageStim(
     win=win,
     name='gram01', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram01.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram01.png', mask=None,
     ori=0, pos=(-.70, -.3), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1194,7 +1197,7 @@ gram01 = visual.ImageStim(
 gram02 = visual.ImageStim(
     win=win,
     name='gram02', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram02.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram02.png', mask=None,
     ori=0, pos=(-.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1202,7 +1205,7 @@ gram02 = visual.ImageStim(
 gram03 = visual.ImageStim(
     win=win,
     name='gram03', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram03.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram03.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1210,7 +1213,7 @@ gram03 = visual.ImageStim(
 gram04 = visual.ImageStim(
     win=win,
     name='gram04', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram04.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram04.png', mask=None,
     ori=0, pos=(-0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1218,7 +1221,7 @@ gram04 = visual.ImageStim(
 gram05 = visual.ImageStim(
     win=win,
     name='gram05', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram05.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram05.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1226,7 +1229,7 @@ gram05 = visual.ImageStim(
 gram06 = visual.ImageStim(
     win=win,
     name='gram06', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram06.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram06.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1234,7 +1237,7 @@ gram06 = visual.ImageStim(
 gram07 = visual.ImageStim(
     win=win,
     name='gram07', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram07.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram07.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1242,7 +1245,7 @@ gram07 = visual.ImageStim(
 gram08 = visual.ImageStim(
     win=win,
     name='gram08', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram08.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram08.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1250,7 +1253,7 @@ gram08 = visual.ImageStim(
 gram09 = visual.ImageStim(
     win=win,
     name='gram09', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram09.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram09.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1258,7 +1261,7 @@ gram09 = visual.ImageStim(
 gram10 = visual.ImageStim(
     win=win,
     name='gram10', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram10.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram10.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1266,7 +1269,7 @@ gram10 = visual.ImageStim(
 gram11 = visual.ImageStim(
     win=win,
     name='gram11', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram11.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram11.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1274,7 +1277,7 @@ gram11 = visual.ImageStim(
 gram12 = visual.ImageStim(
     win=win,
     name='gram12', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram12.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram12.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1292,7 +1295,7 @@ trial_2Clock = core.Clock()
 one_2 = visual.ImageStim(
     win=win,
     name='one_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/one.png', mask=None,
+    image=str(stim_folder) + '/one.png', mask=None,
     ori=0, pos=(-.70, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1303,7 +1306,7 @@ mouse_4.mouseClock = core.Clock()
 two_2 = visual.ImageStim(
     win=win,
     name='two_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/two.png', mask=None,
+    image=str(stim_folder) + '/two.png', mask=None,
     ori=0, pos=(-.45, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1311,7 +1314,7 @@ two_2 = visual.ImageStim(
 three_2 = visual.ImageStim(
     win=win,
     name='three_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/three.png', mask=None,
+    image=str(stim_folder) + '/three.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1319,7 +1322,7 @@ three_2 = visual.ImageStim(
 seven_2 = visual.ImageStim(
     win=win,
     name='seven_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/seven.png', mask=None,
+    image=str(stim_folder) + '/seven.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1327,7 +1330,7 @@ seven_2 = visual.ImageStim(
 eight_2 = visual.ImageStim(
     win=win,
     name='eight_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eight.png', mask=None,
+    image=str(stim_folder) + '/eight.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1335,7 +1338,7 @@ eight_2 = visual.ImageStim(
 nine_2 = visual.ImageStim(
     win=win,
     name='nine_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/nine.png', mask=None,
+    image=str(stim_folder) + '/nine.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1343,7 +1346,7 @@ nine_2 = visual.ImageStim(
 four_2 = visual.ImageStim(
     win=win,
     name='four_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/four.png', mask=None,
+    image=str(stim_folder) + '/four.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1351,7 +1354,7 @@ four_2 = visual.ImageStim(
 five_2 = visual.ImageStim(
     win=win,
     name='five_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/five.png', mask=None,
+    image=str(stim_folder) + '/five.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1359,7 +1362,7 @@ five_2 = visual.ImageStim(
 six_2 = visual.ImageStim(
     win=win,
     name='six_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/six.png', mask=None,
+    image=str(stim_folder) + '/six.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1367,7 +1370,7 @@ six_2 = visual.ImageStim(
 ten_2 = visual.ImageStim(
     win=win,
     name='ten_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/ten.png', mask=None,
+    image=str(stim_folder) + '/ten.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1375,7 +1378,7 @@ ten_2 = visual.ImageStim(
 eleven_2 = visual.ImageStim(
     win=win,
     name='eleven_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eleven.png', mask=None,
+    image=str(stim_folder) + '/eleven.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1383,7 +1386,7 @@ eleven_2 = visual.ImageStim(
 twelve_2 = visual.ImageStim(
     win=win,
     name='twelve_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/twelve.png', mask=None,
+    image=str(stim_folder) + '/twelve.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1460,7 +1463,7 @@ hitbox_dict = {('one'): ((-0.62, -0.7799999999999999), (0.38, 0.2199999999999999
 gram01_2 = visual.ImageStim(
     win=win,
     name='gram01_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram01.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram01.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1468,7 +1471,7 @@ gram01_2 = visual.ImageStim(
 gram02_2 = visual.ImageStim(
     win=win,
     name='gram02_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram02.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram02.png', mask=None,
     ori=0, pos=(-0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1476,7 +1479,7 @@ gram02_2 = visual.ImageStim(
 gram03_2 = visual.ImageStim(
     win=win,
     name='gram03_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram03.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram03.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1484,7 +1487,7 @@ gram03_2 = visual.ImageStim(
 gram04_2 = visual.ImageStim(
     win=win,
     name='gram04_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram04.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram04.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1492,7 +1495,7 @@ gram04_2 = visual.ImageStim(
 gram05_2 = visual.ImageStim(
     win=win,
     name='gram05_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram05.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram05.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1500,7 +1503,7 @@ gram05_2 = visual.ImageStim(
 gram06_2 = visual.ImageStim(
     win=win,
     name='gram06_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram06.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram06.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1508,7 +1511,7 @@ gram06_2 = visual.ImageStim(
 gram07_2 = visual.ImageStim(
     win=win,
     name='gram07_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram07.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram07.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1516,7 +1519,7 @@ gram07_2 = visual.ImageStim(
 gram08_2 = visual.ImageStim(
     win=win,
     name='gram08_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram08.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram08.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1524,7 +1527,7 @@ gram08_2 = visual.ImageStim(
 gram09_2 = visual.ImageStim(
     win=win,
     name='gram09_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram09.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram09.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1532,7 +1535,7 @@ gram09_2 = visual.ImageStim(
 gram10_2 = visual.ImageStim(
     win=win,
     name='gram10_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram10.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram10.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1540,7 +1543,7 @@ gram10_2 = visual.ImageStim(
 gram11_2 = visual.ImageStim(
     win=win,
     name='gram11_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram11.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram11.png', mask=None,
     ori=0, pos=(-0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1548,7 +1551,7 @@ gram11_2 = visual.ImageStim(
 gram12_2 = visual.ImageStim(
     win=win,
     name='gram12_2', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram12.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram12.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1566,7 +1569,7 @@ trial_3Clock = core.Clock()
 one_3 = visual.ImageStim(
     win=win,
     name='one_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/one.png', mask=None,
+    image=str(stim_folder) + '/one.png', mask=None,
     ori=0, pos=(-.70, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1577,7 +1580,7 @@ mouse_5.mouseClock = core.Clock()
 two_3 = visual.ImageStim(
     win=win,
     name='two_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/two.png', mask=None,
+    image=str(stim_folder) + '/two.png', mask=None,
     ori=0, pos=(-.45, .30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1585,7 +1588,7 @@ two_3 = visual.ImageStim(
 three_3 = visual.ImageStim(
     win=win,
     name='three_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/three.png', mask=None,
+    image=str(stim_folder) + '/three.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1593,7 +1596,7 @@ three_3 = visual.ImageStim(
 seven_3 = visual.ImageStim(
     win=win,
     name='seven_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/seven.png', mask=None,
+    image=str(stim_folder) + '/seven.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1601,7 +1604,7 @@ seven_3 = visual.ImageStim(
 eight_3 = visual.ImageStim(
     win=win,
     name='eight_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eight.png', mask=None,
+    image=str(stim_folder) + '/eight.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1609,7 +1612,7 @@ eight_3 = visual.ImageStim(
 nine_3 = visual.ImageStim(
     win=win,
     name='nine_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/nine.png', mask=None,
+    image=str(stim_folder) + '/nine.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1617,7 +1620,7 @@ nine_3 = visual.ImageStim(
 four_3 = visual.ImageStim(
     win=win,
     name='four_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/four.png', mask=None,
+    image=str(stim_folder) + '/four.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1625,7 +1628,7 @@ four_3 = visual.ImageStim(
 five_3 = visual.ImageStim(
     win=win,
     name='five_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/five.png', mask=None,
+    image=str(stim_folder) + '/five.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1633,7 +1636,7 @@ five_3 = visual.ImageStim(
 six_3 = visual.ImageStim(
     win=win,
     name='six_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/six.png', mask=None,
+    image=str(stim_folder) + '/six.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1641,7 +1644,7 @@ six_3 = visual.ImageStim(
 ten_3 = visual.ImageStim(
     win=win,
     name='ten_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/ten.png', mask=None,
+    image=str(stim_folder) + '/ten.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1649,7 +1652,7 @@ ten_3 = visual.ImageStim(
 eleven_3 = visual.ImageStim(
     win=win,
     name='eleven_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/eleven.png', mask=None,
+    image=str(stim_folder) + '/eleven.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1657,7 +1660,7 @@ eleven_3 = visual.ImageStim(
 twelve_3 = visual.ImageStim(
     win=win,
     name='twelve_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/twelve.png', mask=None,
+    image=str(stim_folder) + '/twelve.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1735,7 +1738,7 @@ hitbox_dict = {('one'): ((-0.62, -0.7799999999999999), (0.38, 0.2199999999999999
 gram01_3 = visual.ImageStim(
     win=win,
     name='gram01_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram01.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram01.png', mask=None,
     ori=0, pos=(0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1743,7 +1746,7 @@ gram01_3 = visual.ImageStim(
 gram02_3 = visual.ImageStim(
     win=win,
     name='gram02_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram02.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram02.png', mask=None,
     ori=0, pos=(-0.20, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1751,7 +1754,7 @@ gram02_3 = visual.ImageStim(
 gram03_3 = visual.ImageStim(
     win=win,
     name='gram03_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram03.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram03.png', mask=None,
     ori=0, pos=(-0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1759,7 +1762,7 @@ gram03_3 = visual.ImageStim(
 gram04_3 = visual.ImageStim(
     win=win,
     name='gram04_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram04.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram04.png', mask=None,
     ori=0, pos=(-0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1767,7 +1770,7 @@ gram04_3 = visual.ImageStim(
 gram05_3 = visual.ImageStim(
     win=win,
     name='gram05_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram05.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram05.png', mask=None,
     ori=0, pos=(0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1775,7 +1778,7 @@ gram05_3 = visual.ImageStim(
 gram06_3 = visual.ImageStim(
     win=win,
     name='gram06_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram06.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram06.png', mask=None,
     ori=0, pos=(0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1783,7 +1786,7 @@ gram06_3 = visual.ImageStim(
 gram07_3 = visual.ImageStim(
     win=win,
     name='gram07_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram07.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram07.png', mask=None,
     ori=0, pos=(0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1791,7 +1794,7 @@ gram07_3 = visual.ImageStim(
 gram08_3 = visual.ImageStim(
     win=win,
     name='gram08_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram08.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram08.png', mask=None,
     ori=0, pos=(0.45, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1799,7 +1802,7 @@ gram08_3 = visual.ImageStim(
 gram09_3 = visual.ImageStim(
     win=win,
     name='gram09_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram09.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram09.png', mask=None,
     ori=0, pos=(-0.20, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1807,7 +1810,7 @@ gram09_3 = visual.ImageStim(
 gram10_3 = visual.ImageStim(
     win=win,
     name='gram10_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram10.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram10.png', mask=None,
     ori=0, pos=(0.70, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1815,7 +1818,7 @@ gram10_3 = visual.ImageStim(
 gram11_3 = visual.ImageStim(
     win=win,
     name='gram11_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram11.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram11.png', mask=None,
     ori=0, pos=(-0.70, 0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -1823,7 +1826,7 @@ gram11_3 = visual.ImageStim(
 gram12_3 = visual.ImageStim(
     win=win,
     name='gram12_3', 
-    image='/Users/rjpil/OneDrive/GS/CECLAB/vgcmd_main/stimuli/tangrams/gram12.png', mask=None,
+    image=str(stim_folder) + '/tangrams/gram12.png', mask=None,
     ori=0, pos=(-0.45, -0.30), size=(0.22, 0.22),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -2103,8 +2106,11 @@ def win_checker()->bool:
                     hitbox_checker("ten", gram22_4),
                     hitbox_checker("eleven", gram23_4),
                     hitbox_checker("twelve", gram13_4)]
-    if all(order2):
+    if all(order):
         return True
+
+continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+continue_text.draw()
 
 trial_time = []
 # keep track of which components have finished
@@ -2267,14 +2273,11 @@ while continueRoutine:
             picked.append(piece)
     
     movingPiece = movePicked(picked, mouse, movingPiece)
-    
-    gram01_xpos = gram01.pos[0]
-    gram01_ypos = gram01.pos[1]
+
     
     win_state = False
     
     win_state = win_checker()
-    
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -2518,34 +2521,36 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
-
 def win_checker()->bool:
-    order = [hitbox_checker("one", gram21_6), 
-                    hitbox_checker("two", gram23_6),
-                    hitbox_checker("three", gram17_6),
-                    hitbox_checker("four", gram22_6),
-                    hitbox_checker("five", gram19_6),
-                    hitbox_checker("six", gram18_6),
-                    hitbox_checker("seven", gram20_6),
-                    hitbox_checker("eight", gram15_6),
-                    hitbox_checker("nine", gram14_6),
-                    hitbox_checker("ten", gram16_6),
-                    hitbox_checker("eleven", gram13_6),
-                    hitbox_checker("twelve", gram24_6)]
-    order2 = [hitbox_checker("one", gram13_6), 
-                    hitbox_checker("two", gram23_6),
-                    hitbox_checker("three", gram15_6),
-                    hitbox_checker("four", gram16_6),
-                    hitbox_checker("five", gram17_6),
-                    hitbox_checker("six", gram18_6),
-                    hitbox_checker("seven", gram19_6),
-                    hitbox_checker("eight", gram20_6),
-                    hitbox_checker("nine", gram21_6),
-                    hitbox_checker("ten", gram22_6),
-                    hitbox_checker("eleven", gram14_6),
-                    hitbox_checker("twelve", gram24_6)]
-    if all(order2):
+    order = [hitbox_checker("one", gram21_5),
+                    hitbox_checker("two", gram23_5),
+                    hitbox_checker("three", gram17_5),
+                    hitbox_checker("four", gram22_5),
+                    hitbox_checker("five", gram19_5),
+                    hitbox_checker("six", gram18_5),
+                    hitbox_checker("seven", gram20_5),
+                    hitbox_checker("eight", gram15_5),
+                    hitbox_checker("nine", gram14_5),
+                    hitbox_checker("ten", gram16_5),
+                    hitbox_checker("eleven", gram13_5),
+                    hitbox_checker("twelve", gram24_5)]
+    order2 = [hitbox_checker("one", gram13_5), 
+                    hitbox_checker("two", gram23_5),
+                    hitbox_checker("three", gram15_5),
+                    hitbox_checker("four", gram16_5),
+                    hitbox_checker("five", gram17_5),
+                    hitbox_checker("six", gram18_5),
+                    hitbox_checker("seven", gram19_5),
+                    hitbox_checker("eight", gram20_5),
+                    hitbox_checker("nine", gram21_5),
+                    hitbox_checker("ten", gram22_5),
+                    hitbox_checker("eleven", gram14_5),
+                    hitbox_checker("twelve", gram24_5)]
+    if all(order):
         return True
+
+continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+continue_text.draw()
 
 trial_time = []
 # keep track of which components have finished
@@ -2708,9 +2713,6 @@ while continueRoutine:
             picked.append(piece)
     
     movingPiece = movePicked(picked, mouse, movingPiece)
-    
-    gram01_xpos = gram01.pos[0]
-    gram01_ypos = gram01.pos[1]
     
     win_state = False
     
@@ -2970,7 +2972,7 @@ def win_checker()->bool:
                     hitbox_checker("seven", gram19_6),
                     hitbox_checker("eight", gram16_6),
                     hitbox_checker("nine", gram13_6),
-                    hitbox_checker("ten", gram16_6),
+                    hitbox_checker("ten", gram15_6),
                     hitbox_checker("eleven", gram23_6),
                     hitbox_checker("twelve", gram18_6)]
     order2 = [hitbox_checker("one", gram13_6), 
@@ -2985,8 +2987,11 @@ def win_checker()->bool:
                     hitbox_checker("ten", gram15_6),
                     hitbox_checker("eleven", gram23_6),
                     hitbox_checker("twelve", gram24_6)]
-    if all(order2):
+    if all(order):
         return True
+
+continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+continue_text.draw()
 
 trial_time = []
 # keep track of which components have finished
@@ -3156,7 +3161,7 @@ while continueRoutine:
     win_state = False
     
     win_state = win_checker()
-    
+
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -3671,8 +3676,11 @@ def win_checker()->bool:
                     hitbox_checker("ten", gram10),
                     hitbox_checker("eleven", gram11),
                     hitbox_checker("twelve", gram01)]
-    if all(order2):
+    if all(order):
         return True
+
+continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+continue_text.draw()
 
 trial_time = []
 # keep track of which components have finished
@@ -3842,8 +3850,8 @@ while continueRoutine:
     win_state = False
     
     win_state = win_checker()
-    
-    
+
+
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
     # if they are, then have it return true and draw continue_text
@@ -4112,8 +4120,11 @@ def win_checker()->bool:
                     hitbox_checker("ten", gram10_2),
                     hitbox_checker("eleven", gram02_2),
                     hitbox_checker("twelve", gram12_2)]
-    if all(order2):
+    if all(order):
         return True
+
+continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+continue_text.draw()
 
 trial_time = []
 # keep track of which components have finished
@@ -4284,7 +4295,7 @@ while continueRoutine:
     
     
     win_state = win_checker()
-    
+
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -4544,6 +4555,10 @@ def win_checker()->bool:
                     hitbox_checker("twelve", gram06_3)]
     if all(order):
         return True
+
+continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+continue_text.draw()
+
 # keep track of which components have finished
 trial_3Components = [one_3, mouse_5, two_3, three_3, seven_3, eight_3, nine_3, four_3, five_3, six_3, ten_3, eleven_3, twelve_3, gram01_3, gram02_3, gram03_3, gram04_3, gram05_3, gram06_3, gram07_3, gram08_3, gram09_3, gram10_3, gram11_3, gram12_3, easy_succ_3]
 for thisComponent in trial_3Components:
@@ -4705,8 +4720,6 @@ while continueRoutine:
     
     movingPiece = movePicked(picked, mouse, movingPiece)
     
-    gram01_xpos = gram01.pos[0]
-    gram01_ypos = gram01.pos[1]
     
     win_state = False
     

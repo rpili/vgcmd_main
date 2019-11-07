@@ -28,7 +28,7 @@ import sys  # to get file system encoding
 
 import pathlib
 stim_folder = pathlib.Path("stimuli")
-flow_folder = pathlib.Path("flow")
+
 
 
 from psychopy.hardware import keyboard
@@ -54,7 +54,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Users/Ryan Pili/OneDrive/GS/CECLAB/vgcmd_main/data',
+    originPath='C:\\Users\\Ryan Pili\\OneDrive\\GS\\CECLAB\\vgcmd_main\\tg_main_set2.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -217,7 +217,7 @@ twelve = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-12.0)
-import pathlib
+
 
 def movePicked(picked, mouse, grabbed):
     if grabbed is not None and mouse.isPressedIn(grabbed):
@@ -501,7 +501,7 @@ twelve_2 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-12.0)
-import pathlib
+
 
 def movePicked(picked, mouse, grabbed):
     if grabbed is not None and mouse.isPressedIn(grabbed):
@@ -775,7 +775,7 @@ twelve_3 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-12.0)
-import pathlib
+
 
 def movePicked(picked, mouse, grabbed):
     if grabbed is not None and mouse.isPressedIn(grabbed):
@@ -1090,7 +1090,7 @@ twelve_4 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-12.0)
-import pathlib
+
 
 def movePicked(picked, mouse, grabbed):
     if grabbed is not None and mouse.isPressedIn(grabbed):
@@ -1374,7 +1374,7 @@ twelve_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-12.0)
-import pathlib
+
 
 def movePicked(picked, mouse, grabbed):
     if grabbed is not None and mouse.isPressedIn(grabbed):
@@ -1658,7 +1658,7 @@ twelve_6 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-12.0)
-import pathlib
+
 
 def movePicked(picked, mouse, grabbed):
     if grabbed is not None and mouse.isPressedIn(grabbed):
@@ -2267,8 +2267,7 @@ while continueRoutine:
     win_state = False
     
     win_state = win_checker()
-    
-    
+
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
     # if they are, then have it return true and draw continue_text
@@ -3135,6 +3134,8 @@ while continueRoutine:
     
     win_state = win_checker()
     
+    continue_text = offscreen_continue() # move the continue off_screen, so you cant click it 
+    continue_text.draw()
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -3142,7 +3143,9 @@ while continueRoutine:
     
     if win_state:
         continue_text = win_continue()
-        continue_text.setAutoDraw(True)
+        continue_text.draw()
+        trial_time.append(trial_timer())
+        trial_time[0].draw()
     else: 
         win.flip()
     
@@ -3807,6 +3810,8 @@ while continueRoutine:
     
     win_state = win_checker()
     
+    continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+    continue_text.draw()
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -4052,18 +4057,18 @@ movingPiece = None
 
 
 def win_checker()->bool:
-    order = [hitbox_checker("one", gram21_6), 
-                    hitbox_checker("two", gram23_6),
-                    hitbox_checker("three", gram17_6),
-                    hitbox_checker("four", gram22_6),
-                    hitbox_checker("five", gram19_6),
-                    hitbox_checker("six", gram18_6),
-                    hitbox_checker("seven", gram20_6),
-                    hitbox_checker("eight", gram15_6),
-                    hitbox_checker("nine", gram14_6),
-                    hitbox_checker("ten", gram16_6),
-                    hitbox_checker("eleven", gram13_6),
-                    hitbox_checker("twelve", gram24_6)]
+    order = [hitbox_checker("one", gram21_5), 
+                    hitbox_checker("two", gram23_5),
+                    hitbox_checker("three", gram17_5),
+                    hitbox_checker("four", gram22_5),
+                    hitbox_checker("five", gram19_5),
+                    hitbox_checker("six", gram18_5),
+                    hitbox_checker("seven", gram20_5),
+                    hitbox_checker("eight", gram15_5),
+                    hitbox_checker("nine", gram14_5),
+                    hitbox_checker("ten", gram16_5),
+                    hitbox_checker("eleven", gram13_5),
+                    hitbox_checker("twelve", gram24_5)]
     if all(order):
         return True
 
@@ -4236,6 +4241,8 @@ while continueRoutine:
     
     win_state = win_checker()
     
+    continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+    continue_text.draw()
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -4490,7 +4497,7 @@ def win_checker()->bool:
                     hitbox_checker("seven", gram19_6),
                     hitbox_checker("eight", gram16_6),
                     hitbox_checker("nine", gram13_6),
-                    hitbox_checker("ten", gram16_6),
+                    hitbox_checker("ten", gram15_6),
                     hitbox_checker("eleven", gram23_6),
                     hitbox_checker("twelve", gram18_6)]
     if all(order):
@@ -4665,7 +4672,9 @@ while continueRoutine:
     
     win_state = win_checker()
     
-    
+    continue_text = offscreen_continue() # move the continue off-screen so it can't be clicked.
+    continue_text.draw()
+
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
     # if they are, then have it return true and draw continue_text
