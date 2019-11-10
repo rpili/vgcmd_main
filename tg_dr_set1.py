@@ -113,7 +113,7 @@ mouse = event.Mouse(win=win)
 x, y = [None, None]
 mouse.mouseClock = core.Clock()
 text_2 = visual.TextStim(win=win, name='text_2',
-    text='Click here to continue.'
+    text='Click here to continue.',
     font='Arial',
     pos=(0, -0.45), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
