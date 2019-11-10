@@ -66,11 +66,30 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run before the window creation
 
-# Setup the Window
+# Ask about the Window
+def ask_about_window():
+    experimenter_input = input("Where are you? booth_b, booth_c, or elsewhere? ")
+    if experimenter_input  == "booth_b":
+        window_size = [1050, 600]
+        monitor_name = "vgcmd_booth_b"
+    elif experimenter_input == "booth_c":
+        window_size = [1050, 600]
+        monitor_name = "vgcmd_booth_c"
+    elif experimenter_input == "elsewhere" or "else":
+        window_size = [1920, 1080]
+        monitor_name = "ryan's windows acer"
+    else:
+        print("invalid response.")
+        quit
+    return window_size, monitor_name 
+
+[window_size, monitor_name] = ask_about_window()
+
+# Setup the window
 win = visual.Window(
-    size=[1920, 1080], fullscr=True, screen=0, 
+    size=window_size, fullscr=False, screen=0, 
     winType='pyglet', allowGUI=True, allowStencil=False,
-    monitor="ryan's windows acer", color=[0,0,0], colorSpace='rgb',
+    monitor=monitor_name, color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
 # store frame rate of monitor if we can measure it
