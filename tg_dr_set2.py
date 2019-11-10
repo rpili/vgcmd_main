@@ -123,7 +123,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 # Initialize components for Routine "instr2"
 instr2Clock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text='On the next slide you will see 12 tangrams in order. \n \nYour goal is to help your partner arrange their tangrams in the correct order. \n \nOn each trial, do not press continue until your partner has the correct order and is ready to continue. \n \nClick anywhere to begin the first trial out of three.',
+    text='On the next slide you will see 12 tangrams in order. \n \nYour partner sees a similar screen, with the tangrams in incorrect order.\n \nYour goal is to help your partner arrange their tangrams in the correct order. \n \nOn each trial, do not press continue until your partner has the correct order and is ready to continue. \n \nClick anywhere to begin the first trial out of three.',
     font='Arial',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
