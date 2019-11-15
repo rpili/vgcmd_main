@@ -1,0 +1,14 @@
+Condition, Time, Participant, VisType, Event, Duration
+
+[contains AV or AO], onset in seconds, subid w/o zero, v or i for in-game, what occurred, duration of event in seconds
+
+[TutorialGameplay], 10.04, v, 9, smile
+[TutorialGameplay], 12.40, v, 9, smile
+[TutorialGameplay], 12.52, v (or i, for in-game), 9, smile
+
+[AV1],7.xx,1,v,headshake,3
+[AV2],
+[AV3],
+[AO4],
+[AO5],
+[AO6],

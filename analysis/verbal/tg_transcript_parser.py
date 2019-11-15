@@ -53,7 +53,7 @@ av_list, ao_list = transcript_parse()
 ao_bcs = [bc_counter(item) for item in ao_list]
 av_bcs = [bc_counter(item) for item in av_list]
 
-log.debug((ao_bcs, av_bcs))
+log.debug(("ao:", ao_bcs, "av", av_bcs))
 
 print("av word count is", len(av_list[0])) 
 print("ao word count is", len(ao_list[0])) 
