@@ -276,15 +276,16 @@ def trial_timer():
     depth=0.0)
     return trial_time
 
-def trial_number():
-    trial_number = visual.TextStim(win=win, name="trial_number",
-            text = "Trial 1",
+def trial_number(trial: str):
+    trial = str(trial)
+    trial_text = visual.TextStim(win=win, name="trial_number",
+            text = f"Trial {trial}",
             font='Arial',
-            pos=(-0.5, 0), height=0.02, wrapWidth=None, ori=0,
+            pos=(-0.5, 0), height=0.03, wrapWidth=None, ori=0,
             color='white', colorSpace='rgb', opacity=1,
             languageStyle="LTR",
             depth=0.0)
-    return trial_number
+    return trial_text
 
 # failing because continue_text wasn't defined, but is listed as valid click
 # offscreen_continue() creates an unclickable, offscreen object named continue_text
@@ -300,12 +301,10 @@ def offscreen_continue():
     return continue_text
 
 continue_text = offscreen_continue()
-trial_number = trial_number()
 
 # create function to call on each frame, that will out the 
 # x and y position of an image as tuple
 # call this over each tangram
-
 
 
 # then create a function that will test each tangra
@@ -2053,6 +2052,9 @@ movingPiece = None
 continue_instr = continue_instr()
 continue_instr.autoDraw = True
 
+trial_text = trial_number(1)
+trial_text.autoDraw = True
+
 def win_checker()->bool:
     order = [hitbox_checker("one", gram08_4), 
                     hitbox_checker("two", gram04_4),
@@ -2234,7 +2236,6 @@ while continueRoutine:
     win_state = False
     
     win_state = win_checker()
-    
     
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
@@ -2465,6 +2466,11 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(2)
+trial_text.autoDraw = True
+
+
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram10_5), 
@@ -2648,8 +2654,7 @@ while continueRoutine:
     
     
     win_state = win_checker()
-    
-    
+
     # in begin routine, create a function that will check if
     # all the tangrams are in the correct spot
     # if they are, then have it return true and draw continue_text
