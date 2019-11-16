@@ -276,6 +276,16 @@ def trial_timer():
     depth=0.0)
     return trial_time
 
+def trial_number():
+    trial_number = visual.TextStim(win=win, name="trial_number",
+            text = "Trial 1",
+            font='Arial',
+            pos=(-0.5, 0), height=0.02, wrapWidth=None, ori=0,
+            color='white', colorSpace='rgb', opacity=1,
+            languageStyle="LTR",
+            depth=0.0)
+    return trial_number
+
 # failing because continue_text wasn't defined, but is listed as valid click
 # offscreen_continue() creates an unclickable, offscreen object named continue_text
 # continue_text is then updated and drawn when win_state = True 
@@ -290,6 +300,7 @@ def offscreen_continue():
     return continue_text
 
 continue_text = offscreen_continue()
+trial_number = trial_number()
 
 # create function to call on each frame, that will out the 
 # x and y position of an image as tuple
