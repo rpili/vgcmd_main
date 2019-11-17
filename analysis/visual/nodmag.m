@@ -43,10 +43,13 @@ for frame = onset:offset
     end
 end
 
+% each item in dx, dy, dx are differences between each frame
+% abs value to find the delta between each frame 
 dx = abs(dx);
 dy = abs(dy);
 dz = abs(dz);
 
+% sum the deltas
 dx = sum(dx);
 dy = sum(dy);
 dz = sum(dz);

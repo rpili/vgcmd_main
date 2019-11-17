@@ -426,7 +426,7 @@ gram24_4 = visual.ImageStim(
 easy_succ_4 = visual.TextStim(win=win, name='easy_succ_4',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-.80, -0.7), height=0.02, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -1318,7 +1318,7 @@ gram12 = visual.ImageStim(
 easy_succ = visual.TextStim(win=win, name='easy_succ',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-.40, 0), height=0.02, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -1592,7 +1592,7 @@ gram12_2 = visual.ImageStim(
 easy_succ_2 = visual.TextStim(win=win, name='easy_succ_2',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-.50, 0), height=0.02, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);

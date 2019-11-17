@@ -79,7 +79,3 @@ iAV = iAVa + iAVb;
 vAO = vAOa + vAOb;
 iAO = iAOa + iAOb;
 condoutput = [vAV vAO iAV iAO];
-
-
-
-            
