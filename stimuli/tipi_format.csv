@@ -1,11 +1,11 @@
 index,questionText,questionWidth,type,responseWidth,options,layout
-1,"""I see my partner as extraverted, enthusiastic.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-2,"""I see my partner as critical, quarrelsome.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-3,"""I see my partner as dependable, self-disciplined.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-4,"""I see my partner as anxious, easily upset.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-5,"""I see my partner as open to new experiences, complex.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-6,"""I see my partner as reserved, quiet."" ",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-7,"""I see my partner as sympathetic, warm.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-8,"""I see my partner as disorganized, careless.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-9,"""I see my partner as calm, emotionally stable.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
-10,"""I see my partner as conventional, uncreative.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+1,"""I see my partner as extraverted / enthusiastic.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+2,"""I see my partner as critical / quarrelsome.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+3,"""I see my partner as dependable / self-disciplined.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+4,"""I see my partner as anxious / easily upset.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+5,"""I see my partner as open to new experiences / complex.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+6,"""I see my partner as reserved / quiet."" ",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+7,"""I see my partner as sympathetic / warm.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+8,"""I see my partner as disorganized / careless.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+9,"""I see my partner as calm / emotionally stable.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz
+10,"""I see my partner as conventional / uncreative.""",0.6,rating,0.4,"1,2,3,4,5,6,7",horiz

@@ -269,7 +269,6 @@ def continue_instr():
     return continue_instr
 
 
-
 def trial_timer():
     trial_time = visual.TextStim(win=win, name='trial_time',
     text=f"Completed in {int(t)} seconds!",
@@ -279,6 +278,17 @@ def trial_timer():
     languageStyle='LTR',
     depth=0.0)
     return trial_time
+
+def trial_number(trial: str):
+    trial = str(trial)
+    trial_text = visual.TextStim(win=win, name="trial_number",
+            text = f"Trial {trial}",
+            font='Arial',
+            pos=(-0.5, 0), height=0.03, wrapWidth=None, ori=0,
+            color='white', colorSpace='rgb', opacity=1,
+            languageStyle="LTR",
+            depth=0.0)
+    return trial_text
 
 # failing because continue_text wasn't defined, but is listed as valid click
 # offscreen_continue() creates an unclickable, offscreen object named continue_text
@@ -2047,6 +2057,9 @@ movingPiece = None
 continue_instr = continue_instr()
 continue_instr.autoDraw = True
 
+trial_text = trial_number(1)
+trial_text.autoDraw = True
+
 def win_checker()->bool:
     order = [hitbox_checker("one", gram20), 
                     hitbox_checker("two", gram16),
@@ -2459,6 +2472,9 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(2)
+trial_text.autoDraw = True
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram21_7), 
@@ -2865,6 +2881,11 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(3)
+trial_text.autoDraw = True
+
+
 def win_checker()->bool:
     order = [hitbox_checker("one", gram17_8), 
                     hitbox_checker("two", gram14_8),
@@ -3180,6 +3201,7 @@ while continueRoutine:
         win.flip()
 
 # -------Ending Routine "trial_6_answer"-------
+trial_text.setAutoDraw(False)
 for thisComponent in trial_6_answerComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
@@ -3516,6 +3538,11 @@ movingPiece = None
         # depending on the winstate order
 
 continue_instr.autoDraw = True
+
+trial_text.autoDraw = False
+trial_text = trial_number(4)
+trial_text.autoDraw = True
+
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram08_4), 
@@ -3928,6 +3955,10 @@ movingPiece = None
         # if this_trial is specific trial
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
+
+trial_text.autoDraw = False
+trial_text = trial_number(5)
+trial_text.autoDraw = True
 
 
 def win_checker()->bool:
@@ -4343,6 +4374,10 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(6)
+trial_text.autoDraw = True
+
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram02_6), 
@@ -4666,6 +4701,7 @@ while continueRoutine:
         win.flip()
 
 # -------Ending Routine "trial_3_answer"-------
+trial_text.setAutoDraw(False)
 for thisComponent in trial_3_answerComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)

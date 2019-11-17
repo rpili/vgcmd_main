@@ -2884,6 +2884,9 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(3)
+trial_text.autoDraw = True
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram02_6), 
@@ -3207,6 +3210,7 @@ while continueRoutine:
         win.flip()
 
 # -------Ending Routine "trial_3_answer"-------
+trial_text.setAutoDraw(False)
 for thisComponent in trial_3_answerComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
@@ -3543,6 +3547,10 @@ movingPiece = None
         # depending on the winstate order
 
 continue_instr.autoDraw = True
+
+trial_text.autoDraw = False
+trial_text = trial_number(4)
+trial_text.autoDraw = True
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram20), 
@@ -3956,6 +3964,9 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(5)
+trial_text.autoDraw = True
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram21_7), 
@@ -4362,6 +4373,10 @@ movingPiece = None
         # change what hitboxes takes in as its 2nd argument
         # depending on the winstate order
 
+trial_text.autoDraw = False
+trial_text = trial_number(6)
+trial_text.autoDraw = True
+
 def win_checker()->bool:
     order = [hitbox_checker("one", gram17_8), 
                     hitbox_checker("two", gram14_8),
@@ -4677,6 +4692,7 @@ while continueRoutine:
         win.flip()
 
 # -------Ending Routine "trial_6_answer"-------
+trial_text.setAutoDraw(False)
 for thisComponent in trial_6_answerComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
