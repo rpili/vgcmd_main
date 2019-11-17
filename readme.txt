@@ -15,3 +15,10 @@ tg_dr_set2.py just need to move around the trials and copy/rename
 
 20191105 - ryan pili
 please don't commit your data files.
+
+20191117 - ryan pili
+for easy_succ, just make some variable called location
+    then based on a flag you can 
+        make the location off screen
+        or have it in it's original spot
+    
