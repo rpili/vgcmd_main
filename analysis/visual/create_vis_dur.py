@@ -23,7 +23,14 @@ def read_in_pointers():
     dyads["DURATION"] = dyads["OFFSET"] - dyads["ONSET"]
     return dyads
 
-def dyads_to_vis_dur():
+def dyads_to_vis_dur(dyads):
+    vis_dur = dyads[["DYADNO","PPTNO","ONSET","DURATION","CONDITION","EVENT_TYPE"]]
+    vis_dur.columns = [colname.lower() for colname in vis_dur.columns]
+    return vis_dur
+
+def vis_dur_mags_only(vis_dur):
+    mags_only = vis_dur[vis_dur.event_type.str.contains("head")]
+    return mags_only
 
 
 # read in all the pointers
@@ -33,4 +40,7 @@ def dyads_to_vis_dur():
 # create a new dataframe
 #   columns: dyadno, pptno, onset, duration, condition, event_type, role
 
-print(read_in_pointers())
+dyads = read_in_pointers()
+dyads = dyads_to_vis_dur(dyads)
+print(dyads)
+print(vis_dur_mags_only(dyads))

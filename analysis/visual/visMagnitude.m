@@ -26,7 +26,7 @@
 %       ao_dy = average magnitude of y movements in AO
 %       ao_dz = average magnitude of z movements in AO
 tic
-visDur = readtable("visDur.csv");
+visDur = readtable("vis_dur_all_dyads.csv");
 
 av_dx = [];
 av_dy = [];
