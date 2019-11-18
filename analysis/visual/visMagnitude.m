@@ -38,7 +38,7 @@ ao_dz = [];
 for line = 1:height(visDur)
     if line == 1 || visDur.pptno(line) ~= visDur.pptno(line - 1)
         visDur.pptno(line)
-        ofdata = readtable(sprintf('/home/ryan/GS/CECLAB/vgcmd/dataanalysis/ofcsv/vg%02d.csv', visDur.pptno(line)), 'Delimiter', ',');
+        ofdata = readtable(sprintf('/home/ryan/GS/CECLAB/vgcmd_main/analysis/OpenFaceCSVs/tg%02d.csv', visDur.pptno(line)), 'Delimiter', ',');
     end
     
     if string(visDur.condition(line)) == 'ao' || string(visDur.condition(line)) == 'AO'

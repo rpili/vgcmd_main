@@ -28,7 +28,7 @@ function [output, condoutput] = visCounter(dyadno, smileflag)
 % dyadno = string(dyadno);
 
 dyad = readtable(sprintf("/home/ryan/GS/CECLAB/vgcmd_main/analysis/visual/visual_locationCSVs/dyad%02d_vis.csv", dyadno), 'Delimiter', ',');
-dyad.Properties.VariableNames = {'Condition' 'Time' 'Participant' 'VisType' 'Event'};
+dyad.Properties.VariableNames = {'Condition', 'Onset', 'Participant', 'VisType', 'Event', 'Offset', 'Role'};
 
 vAVa = 0;
 vAOa = 0;
