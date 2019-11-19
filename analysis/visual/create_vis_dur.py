@@ -44,3 +44,7 @@ dyads = read_in_pointers()
 dyads = dyads_to_vis_dur(dyads)
 print(dyads)
 print(vis_dur_mags_only(dyads))
+
+vis_dur = vis_dur_mags_only(dyads) 
+
+vis_dur.to_csv("vis_dur.csv", index=False)

@@ -13,6 +13,8 @@
 
 function frames = ttf(dur, fps)
 
+dur = round(dur);
+
 frames = dur*fps;
 
 end
