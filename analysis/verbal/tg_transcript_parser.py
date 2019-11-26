@@ -24,17 +24,19 @@ def transcript_parse():
         av_idx = words.index("[av]")
         ao_idx = words.index("[ao]")
         if av_idx > ao_idx:
-            av_ao = True
-            ao_av = False
+            av_ao = False
+            ao_av = True
         else: 
-            ao_av = False
             av_ao = True
+            ao_av = False
+        # log.debug((av_ao, ao_av, "av_idx:", av_idx, "ao_idx", ao_idx))
         if av_ao is True:
-            av_words = words[0:ao_idx]
+            av_words = words[av_idx:ao_idx]
             ao_words = words[ao_idx:]
-        else: 
+        elif ao_av is True: 
             av_words = words[av_idx:]
-            ao_words = words[0:av_idx]
+            ao_words = words[ao_idx:av_idx]
+        # log.debug(("av_words", av_words, "ao_words", ao_words))
         av_words = [item for item in av_words if "[" not in item]
         av_words = [item for item in av_words if len(item) > 0]
         ao_words = [item for item in ao_words if "[" not in item]
@@ -67,6 +69,8 @@ def count_framer(ao_bcs: list, av_bcs: list, av_wc: list, ao_wc: list):
 # with no [ ] or :
 av_list, ao_list = transcript_parse()
 
+# log.debug(("av_list:", av_list, len(av_list)))
+# log.debug(("ao_list:", ao_list, len(ao_list))) 
 
 # for each list of words, go through it and check all the *
 # return a list of backchannel counts for each dyad, for each condition
