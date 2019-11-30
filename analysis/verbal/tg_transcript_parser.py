@@ -8,6 +8,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import seaborn as sns
 from loguru import logger as log
+import re
 
 # log.disable(log.DEBUG)
 
@@ -16,7 +17,9 @@ def transcript_parse():
     files = folder.glob("*.txt")
     ao_list = []
     av_list = []
+    dyad_ids = []
     for tc in files:
+        dyadid = int(re.search(r"\d+", str(tc)).group())
         tc_string = tc.read_text()
         tc_string = tc_string.replace("\n", " ")
         tc_split = tc_string.split(" ")  
@@ -43,7 +46,8 @@ def transcript_parse():
         ao_words = [item for item in ao_words if len(item) > 0]
         ao_list.append(ao_words)
         av_list.append(av_words)
-    return av_list, ao_list
+        dyad_ids.append(dyadid)
+    return av_list, ao_list, dyad_ids
 
 
 def bc_counter(words: list)->int:
@@ -67,7 +71,7 @@ def count_framer(ao_bcs: list, av_bcs: list, av_wc: list, ao_wc: list):
 # turn the .txt files in to list of lists of words
 # each list in the list is from one dyad, len(list) = number of dyads
 # with no [ ] or :
-av_list, ao_list = transcript_parse()
+av_list, ao_list, dyad_ids = transcript_parse()
 
 # log.debug(("av_list:", av_list, len(av_list)))
 # log.debug(("ao_list:", ao_list, len(ao_list))) 
@@ -85,11 +89,24 @@ av_wc, ao_wc = word_counter(av_list, ao_list)
 print(f"av word counts are {av_wc}, and ao_wc counts are {ao_wc}")
 
 # turn these counts into a pandas df so we can graph nicely
-counts_df = count_framer(ao_bcs, av_bcs, ao_wc, av_wc)
+counts_df = count_framer(av_bcs=av_bcs, ao_bcs=ao_bcs, av_wc=av_wc, ao_wc=ao_wc)
+counts_df["dyad_id"] = dyad_ids
+counts_df = counts_df[["dyad_id", "av_bc", "ao_bc", "av_wc", "ao_wc"]]
+counts_df["prop_ao_bc"] = counts 
+graph_df = counts_df[["av_bc", "ao_bc", "av_wc", "ao_wc"]]
+
 print(counts_df)
 
 # counts_df = counts_df.reset_index()
 # print(counts_df)
-sns.boxplot(data=counts_df)
+figure1 = sns.boxplot(data=graph_df[["av_bc", "ao_bc"]])
+figure1.set(xlabel="Condition", ylabel="Backchannel Count", title="Verbal Backchannels per Condition")
 plt.show()
+figure1 = figure1.get_figure()
+figure1.savefig("backchannel_figure.png")
+figure2 = sns.boxplot(data=graph_df[["av_wc", "ao_wc"]])
+figure2.set(xlabel="Condition", ylabel="Word Count", title="Word Count per Condition")
+plt.show()
+figure2 = figure2.get_figure()
+figure2.savefig("wordcount_figure.png")
 
