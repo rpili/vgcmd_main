@@ -15,4 +15,12 @@
 [AO4],1392.949,1,v,hand_gesture,1394.715,mt
 [AO4],1430.374,1,v,headnod,1431.221,mt
 [AO6],1580.055,1,v,smile,1588.155,mt
-[AV1],1367.673,2,v,headnod,1368.360,dr
+[AV1],268.497,2,v,hand_point,272.591,dr
+[AV1],277.430,2,v,hand_mimic,278.797,dr
+[AV1],283.880,2,v,hand_mimic,285.947,dr
+[AV1],287.713,2,v,hand_gesture,287.713,dr
+[AV1],299.594,2,v,hand_mimic,299.594,dr
+[AV1],308.463,2,v,headnod,308.896,dr
+[AV1],335.133,2,v,handnod,335.762,dr
+
+
