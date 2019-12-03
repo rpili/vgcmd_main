@@ -1,14 +1,52 @@
-Condition, Time, Participant, VisType, Event, Duration
-
-[contains AV or AO], onset in seconds, subid w/o zero, v or i for in-game, what occurred, duration of event in seconds
-
-[TutorialGameplay], 10.04, v, 9, smile
-[TutorialGameplay], 12.40, v, 9, smile
-[TutorialGameplay], 12.52, v (or i, for in-game), 9, smile
-
-[AV1],7.xx,1,v,headshake,3
-[AV2],
-[AV3],
-[AO4],
-[AO5],
-[AO6],
+[AV1],291.521,1,v,hand_gesture,292.354,mt
+[AV1],430.598,1,v,hand_gesture,436.965,mt
+[AV1],436.533,1,v,headnod,437.986,mt
+[AV1],464.075,1,v,hand_gesture,465.975,mt
+[AV1],506.783,1,v,smile,513.400,mt
+[AV2],531.132,1,v,point,535.999,mt
+[AV2],539.736,1,v,headnod,540.099,mt
+[AV2],596.750,1,v,headnod,598.250,mt
+[AV2],639.533,1,v,headshake,641.033,mt
+[AV3],677.665,1,v,hand_gesture,678.598,mt
+[AV3],678.891,1,v,hand_gesture,680.791,mt
+[AO4],1334.533,1,v,hand_gesture,1343.697,mt
+[AO4],1367.673,1,v,headnod,1368.360,mt
+[AO4],1368.960,1,v,smile,1373.281,mt
+[AO4],1392.949,1,v,hand_gesture,1394.715,mt
+[AO4],1430.374,1,v,headnod,1431.221,mt
+[AO6],1580.055,1,v,smile,1588.155,mt
+[AV1],268.497,2,v,hand_point,272.591,dr
+[AV1],277.430,2,v,hand_mimic,278.797,dr
+[AV1],283.880,2,v,hand_mimic,285.947,dr
+[AV1],287.713,2,v,hand_gesture,287.713,dr
+[AV1],299.594,2,v,hand_mimic,299.594,dr
+[AV1],308.463,2,v,headnod,308.896,dr
+[AV1],335.133,2,v,handnod,335.762,dr
+[AV1],341.117,2,v,hand_mimic,344.072,dr
+[AV1],344.072,2,v,hand_gesture,347.700,dr
+[AV1],355.867,2,v,hand_gesture,357.533,dr
+[AV1],359.083,2,v,hand_mimic,360.366,dr
+[AV1],375.763,2,v,hand_mimic,381.604,dr
+[AV1],341.117,2,v,hand_mimic,344.072,dr
+[AV1],396.366,2,v,headnod,397.367,dr
+[AV1],413.835,2,v,hand_mimic,414.332,dr
+[AV1],425.613,2,v,headnod,426.847,dr
+[AV1],446.098,2,v,hand_mimic,447.029,dr
+[AV1],452.512,2,v,hand_mimic,452.912,dr
+[AV1],455.726,2,v,hand_mimic,456.793,dr
+[AV1],488.480,2,v,hand_point,490.077,dr
+[AV1],490.077,2,v,hand_mimic,491.043,dr
+[AV1],493.859,2,v,hand_mimic,494.659,dr
+[AV2],537.130,2,v,hand_mimic,540.597,dr
+[AV2],590.797,2,v,hand_mimic,591.697,dr
+[AV2],597.999,2,v,hand_mimic,600.033,dr
+[AV2],600.700,2,v,headshake,602.291,dr
+[AV2],608.796,2,v,headnod,609.196,dr
+[AV2],609.560,2,v,headshake,610.726,dr
+[AV2],632.700,2,v,hand_point,638.950,dr
+[AV3],679.450,2,v,hand_gesture,681.450,dr
+[AV3],680.786,2,v,headshake,681.700,dr
+[AV3],725.700,2,v,headnod,726.533,dr
+[AV3],757.000,2,v,headnod,757.997,dr
+[AO4],1351.033,2,v,headshake,1353.283,dr
+[AO4],1359.617,2,v,headnod,1360.117,dr

@@ -1,0 +1,277 @@
+﻿[intro]
+dr: alright, are you ready uh ready to go?
+mt: I’m ready yeah
+dr: okay, cool. alright, umm ok so I can only press continue when you’re ready
+[ao]
+[trial1]
+dr: okay umm, so what does your screen look like? do you have something that you can type stuff into?
+mt: umm
+dr: or like?
+mt: I have like twelve of the shapes on top or like six on top and six on the bottom
+dr: okay cool*
+mt: that I can move them around
+dr: oh* you can move yours around? okay cool umm* so my number one 
+mt: alright
+dr: okay cool uhh alright. so my number one looks like a fish kind of
+mt: hmm
+dr: yah, it’s like the umm on the way right
+mt: does it have like the tail
+dr: yeah*
+mt: to the top left?
+dr: the tail, it’s like one green and one like hot pink purple color?
+mt: okay*
+dr: yeah, that’s my number one
+mt: wait, how do I okay
+dr: cool, should I move on?
+mt: umm I’m trying to drag that fish thing over right now. I got it
+dr: cool* alright umm. my number two looks like three mountains and the mountain on the left side the left the left half is blue and the mountain on the right side the right half is orange
+mt: alright got it*
+dr: cool umm. my number three is the one that has that’s almost almost the full square is almost completely full and there’s one big uh blue triangle at the base
+mt: alright got it*
+dr: okay umm. my number four is a oh ok that’s fine uh hhh my number four is a think of it’s kind of a like an arrow pointing to the left and the small triangle that’s uh at the very tip is green
+mt: got it*
+dr: got it. cool umm. my number five is 1, 2, 3, 4, 5 it looks like five umm what kind of triangles? isosceles? actually these are not isosceles triangles it’s like five right triangles umm all the base of them are on the right side and the tips are pointing to the left and the very top one is orange
+mt: got it*
+dr: okay and then my number six it looks like umm like a like an arrow? pointing to the right but it consists of like a bunch of like jumbled figures put together. there’s a 
+mt: okay*
+dr: orange triangle facing downwards and a big umm a big blue triangle that’s pointing to the to the right
+mt: got it*
+dr: yeah umm. my number seven is it has a it has a pink trapezoid in the upper right hand corner and then umm it kinda looks like a building there’s a orange triangle at the left side and a blue one
+mt: alright*
+dr: on the right
+mt: got it*
+dr: cool umm number eight kind of looks like an alpaca
+mt: hhh with the 
+dr: oh nevermind there’s a
+mt: little yellow triangle on the right side
+dr: yeah* triangle on the right side 
+mt: yeah*
+dr: cool umm and then my number nine looks like a person figure skating or like on one foot with the other leg lifted up and then head is the seafoam greenish square
+mt: got it*
+dr: cool my number ten looks like a shoot they both look like a house. my number ten looks like a house but umm instead of having like one little chimney its like two weird looking chimneys
+mt: like crossover?
+dr: yeah* and like the bases like
+mt: okay
+dr: blue and orange
+mt: got it*
+dr: cool umm my number eleven is the the one that looks like a camel
+mt: okay*
+dr: where like the little yellow uh triangle in the upper left hand corner
+mt: mhm*
+dr: and then
+mt: oh wait
+dr: twelve
+mt: in the upper 
+dr: upper left hand corner
+mt: left hand corner? okay and then the alpaca's the one with the 
+dr: that was number ay
+mt: yellow triangle on the right?
+dr: yeah*
+mt: okay
+dr: and then twelve was the house looking one with the one chimney
+mt: gotcha*
+dr: cool
+mt: just dragging it back okay cool
+dr: alright umm
+mt: so I continue now
+dr: so do you press continue and then I press continue?
+mt: I guess so?
+dr: okay* cool
+[trial2]
+mt: okay I pressed it
+dr: alright* cool so did you do the same thing again?
+mt: do you tell me which ones are right or am I
+dr: uhh I think I tell you which ones are right again
+mt: okay
+dr: umm so my number one is the house
+mt: with one chimney?
+dr: with one chimney yeah
+mt: okay
+dr: uhh my number two is umm the one with the uh the big blue triangle as the base and like a bunch of the one that’s like mostly filled
+mt: oh okay*
+dr: yeah
+mt: hang on I’m just like still trying to drag the house over
+dr: hhh
+mt: hhh okay now I’m ready
+dr: cool my number three is the house that was like the crossover house
+mt: okay*
+dr: alright umm my number four is the alpaca with the in the right upper right hand corner with the triangle
+mt: okay*
+dr: umm my number five am I going too fast?
+mt: no you’re good
+dr: okay sick uh my number five is the one with the pink trapezoid in the upper righthand corner
+mt: okay*
+dr: uhuh and then my number six is the one with the five right right right triangles with the
+mt: gotcha*
+dr: top one being orange
+mt: okay*
+dr: uh seven is the fish 
+mt: okay*
+dr: uh eight is the umm the other alpaca hhh
+mt: hhh okay*
+dr: umm my number nine is the one that was like the triangle pointing to the left with the green triangle as the tip
+mt: okay* gotcha
+dr: uh number ten is the umm three mountains
+mt: okay*
+dr: eleven is the figure skater and twelve is the arrow that was pointing to the left
+mt: okay* or to the left or to the right? 
+dr: oh sorry sorry to the right
+mt: okay*
+dr: yeah
+mt: cool*
+dr: cool
+mt: press continue?
+dr: alright* nice ready?
+mt: yeah*
+[trial3]
+dr: cool uh my number one is the crossover house
+mt: okay*
+dr: okay and number two is the arrow to the right no sorry left left
+mt: okay*
+dr: yeah uh and then number three is the fish
+mt: okay*
+dr: okay uh number five oh sorry number four is the alpaca with the right corner triangle
+mt: okay* 
+dr: umm five is the arrow pointing to the right
+mt: okay*
+dr: uh six is the house with one chimney
+mt: okay*
+dr: uh seven is the trapezoid in the right hand corner
+mt: okay*
+dr: and then uh eight is the mountains
+mt: alright*
+dr: and then nine is the figure skater uh ten is the
+mt: okay*
+dr: ten is the other alpaca
+mt: hhh
+dr: hhh
+mt: got it*
+dr: uh eleven is the umm the one where the square’s mostly full
+mt: okay*
+dr: and then twelve is the right hand triangles the right 
+mt: cool 
+dr: corner what is that
+mt: yeah*
+dr: the right angle triangles right triangles?
+mt: hhh got it*
+dr: hhh okay uh
+mt: okay*
+dr: continue? okay
+mt: we’re done!
+dr: we’re done!
+[tipi]
+[av]
+[trial4]
+dr: hello
+mt: hi
+dr: hi hhh
+mt: hhh
+dr: uh okay umm are you ready?
+mt: yeah
+dr: cool umm my number one oh these are kind of different okay uh 
+mt: hhh
+dr: my number one is looks like an alpaca again with the uh uh yellow triangle in the upper left hand corner
+mt: got it*
+dr: cool uh my number two is a person that’s sitting down with their knees kinda up and umm and they’re like back is on the right side
+mt: um oh okay* with the blue head kind of
+dr: mhm* yeah like that seafoamy blue
+mt: mhm*
+dr: cool um my number three is kind of like a four triangles put together its like two big ones like like this the one on the left is uh orange the one on the right is like that seafoam green and then there’s two smaller triangles that are like
+mt: oh* like a blue and a green one?
+dr: yeah blue and a green one*
+mt: okay* perfect
+dr: uh my number four looks like a so there’s two that looks like a sailboat but my number four is the sailboat that has two sails
+mt: okay got it*
+dr: cool uh my number five is the swan lookin one it has like a big uh orange triangle that’s like this and uh a right triangle that’s blue like right next to it
+mt: got it*
+dr: cool umm number six it’s like that weird snakey looking one on the bottom right hand corner there’s a seafoam green
+mt: okay got it*
+dr: diamond uh number seven is the sailboat with one sail
+mt: okay*
+dr: uh number eight is the very base of it is uh that seafoam rectangle 
+mt: and it’s like a long vertical?
+dr: yeah like a long*
+mt: cool
+dr: um my number nine is the one where the its like an hour its like an hour glass shape
+mt: got it* big orange and blue one?
+dr: yeah* and number ten is just a big *ss triangle 
+mt: cool*
+dr: hhh uh eleven is the um kinda looks like a fox like a vulture fox
+mt: oh* with the ears?
+dr: yeah with the ears*
+mt: cool
+dr: and then twelve is the 
+mt: oh yeah it’s this last one on the left
+dr: it’s like that weird fish
+mt: hhh
+dr: it’s not really like a fish but like it’s very hhh odd
+mt: yeah*
+dr: hhh
+mt: hhh okay cool
+dr: cool
+mt: uh continue?
+dr: continue* okay
+[trial5]
+dr: uh my number one is the sailboat with one sail 
+mt: okay*
+dr: okay
+mt: got it*
+dr: uh my number two is the um the one with um light green rectangle as the base
+mt: okay*
+dr: uh my number three is the four triangles with like the orange and the like like light green
+mt: okay*
+dr: okay uh number four is the hourglass lookin one again 
+mt: okay*
+dr: five is the big triangle oh sorry yah
+mt: cool*
+dr: six is the sailboat with two sails
+mt: okay*
+dr: seven is the alpaca
+mt: okay*
+dr: hhh eight is the um that one that kinda looked like a weird fish the one that was number twelve
+mt: right* it has like a a blue on the bottom and an orange and a green 
+dr: yeah*
+mt: cool*
+dr: uh number nine is the person who’s sitting with their knees up 
+mt: okay*
+dr: uh ten is the snake uh right hand like trapezoid uh diamond
+mt: okay*
+dr: eleven is the fox one 
+mt: okay*
+dr: and then twelve is the swan lookin one hhh
+mt: got it* 
+dr: cool
+mt: cool
+[trial6]
+dr: okay uh my number one is the double sail
+mt: okay*
+dr: uh two is the fish uh three is the swan
+mt: yeah* I’m looking for the fish
+dr: oh
+mt: where is he? um remind me what it looks like?
+dr: it’s the one that has the big big big orange triangle the blue triangle and a green one like the base and like the tail part is like hot pink
+mt: alright oh okay got it*
+dr: uh three is the swan
+mt: okay*
+dr: uh four is the person sitting
+mt: with their knees up?
+dr: mhm*
+mt: okay*
+dr: and then uh five is the alpaca uh
+mt: okay*
+dr: six is the hourglass
+mt: okay*
+dr: seven is the sailboat with the one sail
+mt: alright*
+dr: okay and then eight is the one with the um the light green rectangle at the base
+mt: okay*
+dr: and then nine is the big triangle
+mt: got it*
+dr: uh ten is the snake 
+mt: okay*
+dr: eleven is that the one with like a lot of triangles like the orange and green 
+mt: okay yeah*
+dr: and then twelve was the fox
+mt: cool*
+dr: alright
+[end]
