@@ -1026,6 +1026,17 @@ tipi_scale = visual.ImageStim(
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-2.0)
 
+# Initialize components for Routine "call_tipi"
+call_tipiClock = core.Clock()
+call_tipi_text = visual.TextStim(win=win, name='call_tipi_text',
+    text='Call experimenter to continue!\n\nPlease yell "We\'re done!" ',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
+    color='white', colorSpace='rgb', opacity=1,
+    languageStyle='LTR',
+    depth=0.0);
+key_resp = keyboard.Keyboard()
+
 # Initialize components for Routine "trial_answer"
 trial_answerClock = core.Clock()
 one_7 = visual.ImageStim(
@@ -3520,6 +3531,105 @@ while tipi_formData['questions']:
 thisExp.addData('tipi_scale.started', tipi_scale.tStartRefresh)
 thisExp.addData('tipi_scale.stopped', tipi_scale.tStopRefresh)
 # the Routine "TIPI" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
+
+# ------Prepare to start Routine "call_tipi"-------
+# update component parameters for each repeat
+key_resp.keys = []
+key_resp.rt = []
+# keep track of which components have finished
+call_tipiComponents = [call_tipi_text, key_resp]
+for thisComponent in call_tipiComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+call_tipiClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+continueRoutine = True
+
+# -------Run Routine "call_tipi"-------
+while continueRoutine:
+    # get current time
+    t = call_tipiClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=call_tipiClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+
+    # *call_tipi_text* updates
+    if call_tipi_text.status == NOT_STARTED and tThisFlip >= 0.0 - frameTolerance:
+        # keep track of start time/frame for later
+        call_tipi_text.frameNStart = frameN  # exact frame index
+        call_tipi_text.tStart = t  # local t and not account for scr refresh
+        call_tipi_text.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(call_tipi_text, 'tStartRefresh')  # time at next scr refresh
+        call_tipi_text.setAutoDraw(True)
+
+    # *key_resp* updates
+    waitOnFlip = False
+    if key_resp.status == NOT_STARTED and tThisFlip >= 0.0 - frameTolerance:
+        # keep track of start time/frame for later
+        key_resp.frameNStart = frameN  # exact frame index
+        key_resp.tStart = t  # local t and not account for scr refresh
+        key_resp.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
+        key_resp.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_resp.status == STARTED and not waitOnFlip:
+        theseKeys = key_resp.getKeys(keyList=['y'], waitRelease=False)
+        if len(theseKeys):
+            theseKeys = theseKeys[0]  # at least one key was pressed
+
+            # check for quit:
+            if "escape" == theseKeys:
+                endExpNow = True
+            key_resp.keys = theseKeys.name  # just the last key pressed
+            key_resp.rt = theseKeys.rt
+            # a response ends the routine
+            continueRoutine = False
+
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in call_exp1Components:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "call_tipi"-------
+for thisComponent in call_tipiComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('call_tipi_text.started', call_tipi_text.tStartRefresh)
+thisExp.addData('call_tipi_text.stopped', call_tipi_text.tStopRefresh)
+# check responses
+if key_resp.keys in ['', [], None]:  # No response was made
+    key_resp.keys = None
+thisExp.addData('key_resp.keys', key_resp.keys)
+if key_resp.keys != None:  # we had a response
+    thisExp.addData('key_resp.rt', key_resp.rt)
+thisExp.addData('key_resp.started', key_resp.tStartRefresh)
+thisExp.addData('key_resp.stopped', key_resp.tStopRefresh)
+thisExp.nextEntry()
+# the Routine "call_exp1" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 # ------Prepare to start Routine "trial_answer"-------
