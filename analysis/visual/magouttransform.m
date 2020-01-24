@@ -8,9 +8,9 @@
 load("visMagout.mat")
 
 ao.dyad = aobydyad(:,1);
-ao.x = aobydyad(:,2) ;
-ao.y = aobydyad(:,3);
-ao.z = aobydyad(:,4);
+ao.x = aobydyad(:,3) ;
+ao.y = aobydyad(:,4);
+ao.z = aobydyad(:,5);
 
 ao.dyad(ao.dyad == 0) = [];
 ao.x(ao.x == 0) = [];
@@ -19,9 +19,9 @@ ao.z(ao.z == 0) = [];
 
 
 av.dyad = avbydyad(:,1);
-av.x = avbydyad(:,2);
-av.y = avbydyad(:,3);
-av.z = avbydyad(:,4);
+av.x = avbydyad(:,3);
+av.y = avbydyad(:,4);
+av.z = avbydyad(:,5);
 
 av.dyad(av.dyad == 0) = [];
 av.x(av.x == 0) = [];

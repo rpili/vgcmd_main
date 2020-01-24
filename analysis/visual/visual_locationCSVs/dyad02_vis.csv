@@ -1,90 +1,88 @@
-[AO1] 7280.195, 3, im headnod, 280.758, dr
-[AO1] 6318.992, 3, ic headnod, 319.822, dr
-[AO1], 319.822, 3, ,  hand_point, 322.381, dr
-[AO1], 323.959, 3, v, headnod, 324.326, dr
-[AO1], 341.650, 3, v, headnod, 342.180, dr
-[AO1], 350.118, 3, v, hand_mimic, 350.961, dr
-[AO1], 350.961, 3, v, hand_mimic, 354.358, dr
-[AO1], 424.300, 3, v, headshake, 424.897, dr
-[AO1], 440.151, 3, v, headnod, 440.518, dr
-[AO1], 462.000, 3, v, headnod, 463.127, dr
-[AO1], 488.466, 3, v, headnod, 489.129, dr
-[AO1], 503.198, 3, v, headnod, 503.931, dr
-[AO1], 522.622, 3, v, headnod, 523.442, dr
-[AO1], 528.335, 3, v, headnod, 529.258, dr
-[AO2], 559.178, 3, v, headnod, 559.745, dr 
-[AO2], 566.001, 3, v, headnod, 566.998, dr
-[AO2], 647.966, 3, v, headnod, 648.730, dr
-[AO2], 652.113, 3, v, headshake, 652.880, dr
-[AO2], 654.755, 3, v, headnod, 656.036, dr
-[AO2], 666.003, 3, v, headshake, 666.923, dr
-[AO2], 667.839, 3, v, headnod, 668.835, dr
-[AO3], 697.617, 3, v, hand_point, 698.098, dr
-[AO3], 703.203, 3, v, headnod, 703.833, dr
-[AO3], 715.358, 3, v, headnod, 715.721, dr
-[AV4], 993.749, 3, v, headnod, 994.453, dr
-[AV4], 1010.422, 3, v, headnod, 1011.121, dr
-[AV4], 1028.215, 3, v, hand_mimic, 1039.022, dr
-[AV4], 1038.587, 3, v, headnod, 1039.154, dr
-[AV4], 1045.817, 3, v, headnod, 1046.517, dr
-[AV4], 1048.957, 3, v, hand_point, 1049.823, dr
-[AV4], 1051.865, 3, v, headnod, 1052.495, dr
-[AV4], 1060.111, 3, v, hand_mimic, 1064.844, dr
-[AV4], 1078.396, 3, v, hand_point, 1078.763, dr
-[AV4], 1085.663, 3, v, headnod, 1086.363, dr
-[AV4], 1094.597, 3, v, hand_mimic, 1095.597, dr
-[AV4], 1096.044, 3, v, headnod, 1096.611, dr
-[AV4], 1106.304, 3, v, headnod, 1107.868, dr
-[AV4], 1107.900, 3, v, headnod, 1109.394, dr
-[AV4], 1122.454, 3, v, headnod, 1122.702, dr
-[AV4], 1132.987, 3, v, hand_gesture, 1133.954, dr
-[AV5], 1160.882, 3, v, hand_mimic, 1162.749, dr
-[AV5], 1198.814, 3, v, headnod, 1199.981, dr
-[AV5], 1211.883, 3, v, hand_mimic, 1212.883, dr
-[AV5], 1214.746, 3, v, headnod, 1215.343, dr
-[AV5], 1223.859, 3, v, headnod, 1224.559, dr
-[AV6], 1251.352, 3, v, hand_mimic, 1258.652, dr
-[AV6], 1264.030, 3, v, headnod, 1264.897, dr
-[AV6], 1273.070, 3, v, headnod, 1274.000, dr
-[AV6], 1309.354, 3, v, headnod, 1310.184, dr<<<<<<< HEAD
-[AO1] ,280.195, 3, [, headnod, 280.758, dr
-[AO1] ,318.992, 3, 
-, headnod, 319.822, dr
-[AO1], 319.822, 3, A, hand_point, 322.381, dr
-[AO1], 323.959, 3, V, headnod, 324.326, dr
-[AO1], 341.650, 3, 4, headnod, 342.180, dr
-[AO1], 350.118, 3, ], hand_mimic, 350.961, dr
-[AO1], 350.961, 3, ,, hand_mimic, 354.358, dr
-[AO1], 424.300, 3,  , headshake, 424.897, dr
-[AO1], 440.151, 3, 1, headnod, 440.518, dr
-[AO1], 462.000, 3, 1, headnod, 463.127, dr
-[AO1], 488.466, 3, 3, headnod, 489.129, dr
-[AO1], 503.198, 3, 2, headnod, 503.931, dr
-[AO1], 522.622, 3, ., headnod, 523.442, dr
-[AO1], 528.335, 3, 9, headnod, 529.258, dr
-[Ad2], 559.178, 3, _, headnod, 559.745, dr 
-[Aa2], 566.001, 3, vg headnod, 566.998, dr
-[A 2], 647.966, 3, ve headnod, 648.730, dr
-[Av2], 652.113, 3, vs headshake, 652.880, dr
-[AO2], 654.755, 3, v11headnod, 656.036, dr
-[AO2], 666.003, 3, v33headshake, 666.923, dr
-[AO2], 667.839, 3, v.9headnod, 668.835, dr
-[AO3], 697.617, 3, v54hand_point, 698.098, dr
-[AO3], 703.203, 3, v, headnod, 703.833, dr
-[AO3], 715.358, 3, vdrheadnod, 715.721, dr
-[AV4], 993.749, 3, v
-[headnod, 994.453, dr
-[AV4], 1010.422, 3, AV headnod, 1011.121, dr
-[AV4], 1028.215, 3, 5] hand_mimic, 1039.022, dr
-[AV4], 1038.587, 3, ,  headnod, 1039.154, dr
-[AV4], 1045.817, 3, 11 headnod, 1046.517, dr
-[AV4], 1048.957, 3, 60 hand_point, 1049.823, dr
-[AV4], 1051.865, 3, .8 headnod, 1052.495, dr
-[AV4], 1060.111, 3, 82 hand_mimic, 1064.844, dr
-[AV4], 1078.396, 3, ,  hand_point, 1078.763, dr
-[AV4], 1085.663, 3, 3, headnod, 1086.363, dr
-[AV4], 1094.597, 3,  v hand_mimic, 1095.597, dr
-[AV4], 1096.044, 3, ,  headnod, 1096.611, dr
-[AV4], 1106.304, 3, ha headnod, 1107.868, dr
-[AV4], 1107.900, 3, nd headnod, 1109.394, dr
-[AV4], 1122.454, 3, _m headnod, 1122.702, dr
+[AO1],280.195,3,v,headnod,280.758,dr
+[AO1],318.992,3,v,headnod,319.822,dr
+[AO1],319.822,3,v,hand_point,322.381,dr
+[AO1],323.959,3,v,headnod,324.326,dr
+[AO1],341.65,3,v,headnod,342.18,dr
+[AO1],350.118,3,v,hand_mimic,350.961,dr
+[AO1],350.961,3,v,hand_mimic,354.358,dr
+[AO1],424.3,3,v,headshake,424.897,dr
+[AO1],440.151,3,v,headnod,440.518,dr
+[AO1],462,3,v,headnod,463.127,dr
+[AO1],488.466,3,v,headnod,489.129,dr
+[AO1],503.198,3,v,headnod,503.931,dr
+[AO1],522.622,3,v,headnod,523.442,dr
+[AO1],528.335,3,v,headnod,529.258,dr
+[AO2],559.178,3,v,headnod,559.745,dr
+[AO2],566.001,3,v,headnod,566.998,dr
+[AO2],647.966,3,v,headnod,648.73,dr
+[AO2],652.113,3,v,headshake,652.88,dr
+[AO2],654.755,3,v,headnod,656.036,dr
+[AO2],666.003,3,v,headshake,666.923,dr
+[AO2],667.839,3,v,headnod,668.835,dr
+[AO3],697.617,3,v,hand_point,698.098,dr
+[AO3],703.203,3,v,headnod,703.833,dr
+[AO3],715.358,3,v,headnod,715.721,dr
+[AV4],993.749,3,v,headnod,994.453,dr
+[AV4],1010.422,3,v,headnod,1011.121,dr
+[AV4],1028.215,3,v,hand_mimic,1039.022,dr
+[AV4],1038.587,3,v,headnod,1039.154,dr
+[AV4],1045.817,3,v,headnod,1046.517,dr
+[AV4],1048.957,3,v,hand_point,1049.823,dr
+[AV4],1051.865,3,v,headnod,1052.495,dr
+[AV4],1060.111,3,v,hand_mimic,1064.844,dr
+[AV4],1078.396,3,v,hand_point,1078.763,dr
+[AV4],1085.663,3,v,headnod,1086.363,dr
+[AV4],1094.597,3,v,hand_mimic,1095.597,dr
+[AV4],1096.044,3,v,headnod,1096.611,dr
+[AV4],1106.304,3,v,headnod,1107.868,dr
+[AV4],1107.9,3,v,headnod,1109.394,dr
+[AV4],1122.454,3,v,headnod,1122.702,dr
+[AV4],1132.987,3,v,hand_gesture,1133.954,dr
+[AV5],1160.882,3,v,hand_mimic,1162.749,dr
+[AV5],1198.814,3,v,headnod,1199.981,dr
+[AV5],1211.883,3,v,hand_mimic,1212.883,dr
+[AV5],1214.746,3,v,headnod,1215.343,dr
+[AV5],1223.859,3,v,headnod,1224.559,dr
+[AV6],1251.352,3,v,hand_mimic,1258.652,dr
+[AV6],1264.03,3,v,headnod,1264.897,dr
+[AV6],1273.07,3,v,headnod,1274,dr
+[AV6],1309.354,3,v,headnod,1310.184,dr
+[AO1],321.717,4,v,headnod,322.780,mt
+[AO1],390.090,4,v,headnod,392.117,mt
+[AO1],412.000,4,v,headnod,413.500,mt
+[AO1],427.734,4,v,headnod,428.595,mt
+[AO1],427.734,4,v,headnod,428.595,mt
+[AO1],458.605,4,v,headnod,459.919,mt
+[AO1],472.417,4,v,headnod,471.379,mt
+[AO1],528.679,4,v,headnod,529.085,mt
+[AO2],559.856,4,v,headnod,560.671,mt
+[AO2],591.999,4,v,headnod,592.752,mt
+[AO2],625.157,4,v,headnod,625.724,mt
+[AO2],646.546,4,v,headnod,647.254,mt
+[AO2],666.361,4,v,headnod,666.921,mt
+[AO3],732.032,4,v,headnod,732.065,mt
+[AV4],995.564,4,v,headnod,996.251,mt
+[AV4],1012.251,4,v,headnod,101.3419,mt
+[AV4],1013.951,4,v,headnod,1014.671,mt
+[AV4],1038.847,4,v,headnod,1039.670,mt
+[AV4],1050.661,4,v,headnod,1051.339,mt
+[AV4],1065.889,4,v,headnod,1067.000,mt
+[AV4],1077.000,4,v,headnod,1078.356,mt
+[AV4],1094.956,4,v,headnod,1096.004,mt
+[AV4],1104.727,4,v,headnod,1106.200,mt
+[AV4],1108.411,4,v,headnod,1109.227,mt
+[AV4],1120.847,4,v,headnod,1121.502,mt
+[AV4],1121.725,4,v,headnod,1123.442,mt
+[AV5],1162.189,4,v,headnod,1163.261,mt
+[AV5],1174.326,4,v,headnod,1175.275,mt
+[AV5],1199.213,4,v,headnod,1200.252,mt
+[AV5],1210.500,4,v,headnod,1211.917,mt
+[AV5],1213.263,4,v,headnod,1215.171,mt
+[AV5],1217.328,4,v,headnod,1217.884,mt
+[AV5],1222.761,4,v,headnod,1223.570,mt
+[AV6],1273.723,4,v,headnod,1274.502,mt
+[AV6],1279.858,4,v,headnod,1282.914,mt
+[AV6],1295.253,4,v,headnod,1296.252,mt
+[AV6],1300.063,4,v,headnod,1300.576,mt
+[AV6],1304.546,4,v,headnod,1304.936,mt
+[AV6],1308.023,4,v,headnod,1309.239,mt
