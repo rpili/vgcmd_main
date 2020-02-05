@@ -3535,6 +3535,13 @@ thisExp.addData('call_exp_text.stopped', call_exp_text.tStopRefresh)
 if key_resp.keys in ['', [], None]:  # No response was made
     key_resp.keys = None
 thisExp.addData('key_resp.keys',key_resp.keys)
+x, y = mouse_4.getPos()
+buttons = mouse_4.getPressed()
+if sum(buttons):
+    # check if the mouse was inside our 'clickable' objects
+    gotValidClick = False
+    for obj in [continue_text, easy_succ_2]:
+        if obj.contains(mouse_4):
 if key_resp.keys != None:  # we had a response
     thisExp.addData('key_resp.rt', key_resp.rt)
 thisExp.addData('key_resp.started', key_resp.tStartRefresh)
@@ -4704,6 +4711,8 @@ trial_text.autoDraw = False
 trial_text = trial_number(6)
 trial_text.autoDraw = True
 
+trial_time = []
+
 
 def win_checker()->bool:
     order = [hitbox_checker("one", gram02_3), 
@@ -4905,6 +4914,8 @@ while continueRoutine:
     if win_state:
         continue_text = win_continue()
         continue_text.setAutoDraw(True)
+        trial_time.append(trial_timer())
+        trial_time[0].draw()
     else: 
         win.flip()
     
