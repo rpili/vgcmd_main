@@ -425,7 +425,7 @@ gram12 = visual.ImageStim(
 easy_succ = visual.TextStim(win=win, name='easy_succ',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-1, -1), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -699,7 +699,7 @@ gram12_2 = visual.ImageStim(
 easy_succ_2 = visual.TextStim(win=win, name='easy_succ_2',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-1, -1), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -974,7 +974,7 @@ gram12_3 = visual.ImageStim(
 easy_succ_3 = visual.TextStim(win=win, name='easy_succ_3',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-1, -1), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -1309,7 +1309,7 @@ gram24_4 = visual.ImageStim(
 easy_succ_4 = visual.TextStim(win=win, name='easy_succ_4',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-1, -1), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -1593,7 +1593,7 @@ gram24_5 = visual.ImageStim(
 easy_succ_5 = visual.TextStim(win=win, name='easy_succ_5',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-1, -1), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
@@ -1877,7 +1877,7 @@ gram24_6 = visual.ImageStim(
 easy_succ_6 = visual.TextStim(win=win, name='easy_succ_6',
     text='Move On',
     font='Arial',
-    pos=(-.30, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(-1, -1), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-26.0);
