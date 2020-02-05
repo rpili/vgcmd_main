@@ -3542,6 +3542,8 @@ if sum(buttons):
     gotValidClick = False
     for obj in [continue_text, easy_succ_2]:
         if obj.contains(mouse_4):
+            gotValidClick = True
+            mouse_4.clicked_name.append(obj.name)
 if key_resp.keys != None:  # we had a response
     thisExp.addData('key_resp.rt', key_resp.rt)
 thisExp.addData('key_resp.started', key_resp.tStartRefresh)

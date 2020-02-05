@@ -2146,7 +2146,7 @@ def win_checker()->bool:
 
 trial_time = []
 # keep track of which components have finished
-trialComponents = [resp_key, one, mouse_3, two, three, seven, eight, nine, four, five, six, ten, eleven, twelve, gram01, gram02, gram03, gram04, gram05, gram06, gram07, gram08, gram09, gram10, gram11, gram12, easy_succ]
+trialComponents = [key_resp, one, mouse_3, two, three, seven, eight, nine, four, five, six, ten, eleven, twelve, gram01, gram02, gram03, gram04, gram05, gram06, gram07, gram08, gram09, gram10, gram11, gram12, easy_succ]
 for thisComponent in trialComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
