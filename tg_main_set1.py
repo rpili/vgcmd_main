@@ -1967,7 +1967,7 @@ while continueRoutine:
         text_2.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
-    
+
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
         core.quit()
@@ -2110,6 +2110,8 @@ routineTimer.reset()
 
 # ------Prepare to start Routine "trial"-------
 # update component parameters for each repeat
+key_resp.keys = []
+key_resp.rt = []
 # setup some python lists for storing info about the mouse_3
 mouse_3.clicked_name = []
 gotValidClick = False  # until a click is received
@@ -2144,7 +2146,7 @@ def win_checker()->bool:
 
 trial_time = []
 # keep track of which components have finished
-trialComponents = [one, mouse_3, two, three, seven, eight, nine, four, five, six, ten, eleven, twelve, gram01, gram02, gram03, gram04, gram05, gram06, gram07, gram08, gram09, gram10, gram11, gram12, easy_succ]
+trialComponents = [resp_key, one, mouse_3, two, three, seven, eight, nine, four, five, six, ten, eleven, twelve, gram01, gram02, gram03, gram04, gram05, gram06, gram07, gram08, gram09, gram10, gram11, gram12, easy_succ]
 for thisComponent in trialComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -2443,7 +2445,33 @@ while continueRoutine:
         easy_succ.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(easy_succ, 'tStartRefresh')  # time at next scr refresh
         easy_succ.setAutoDraw(True)
-    
+
+    # *key_resp* updates
+    waitOnFlip = False
+    if key_resp.status == NOT_STARTED and tThisFlip >= 0.0 - frameTolerance:
+        # keep track of start time/frame for later
+        key_resp.frameNStart = frameN  # exact frame index
+        key_resp.tStart = t  # local t and not account for scr refresh
+        key_resp.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
+        key_resp.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_resp.status == STARTED and not waitOnFlip:
+        theseKeys = key_resp.getKeys(keyList=['y'], waitRelease=False)
+        if len(theseKeys):
+            theseKeys = theseKeys[0]  # at least one key was pressed
+
+            # check for quit:
+            if "escape" == theseKeys:
+                endExpNow = True
+            key_resp.keys = theseKeys.name  # just the last key pressed
+            key_resp.rt = theseKeys.rt
+            # a response ends the routine
+            continueRoutine = False
+
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
         core.quit()
@@ -2467,6 +2495,14 @@ for thisComponent in trialComponents:
         thisComponent.setAutoDraw(False)
 thisExp.addData('one.started', one.tStartRefresh)
 thisExp.addData('one.stopped', one.tStopRefresh)
+# check responses
+if key_resp.keys in ['', [], None]:  # No response was made
+    key_resp.keys = None
+thisExp.addData('key_resp.keys',key_resp.keys)
+if key_resp.keys != None:  # we had a response
+    thisExp.addData('key_resp.rt', key_resp.rt)
+thisExp.addData('key_resp.started', key_resp.tStartRefresh)
+thisExp.addData('key_resp.stopped', key_resp.tStopRefresh)
 # store data for thisExp (ExperimentHandler)
 x, y = mouse_3.getPos()
 buttons = mouse_3.getPressed()
