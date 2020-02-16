@@ -27,9 +27,11 @@ function [output, condoutput] = visCounter(dyadno, smileflag)
 
 % dyadno = string(dyadno);
 
+% create dyad table
 dyad = readtable(sprintf("/home/ryan/GS/CECLAB/vgcmd_main/analysis/visual/visual_locationCSVs/dyad%02d_vis.csv", dyadno), 'Delimiter', ',');
 dyad.Properties.VariableNames = {'Condition', 'Onset', 'Participant', 'VisType', 'Event', 'Offset', 'Role'};
 
+% initialize variables
 vAVa = 0;
 vAOa = 0;
 iAVa = 0;
@@ -39,8 +41,10 @@ vAOb = 0;
 iAVb = 0;
 iAOb = 0;
 
+% initialize condition flag
 flag = 3;
 
+% main loop, parses through table made by dyad*_vis.csv
 for time = 1:height(dyad)
     if string(dyad.Event(time)) == "smile" && smileflag == 0
         continue
