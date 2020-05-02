@@ -25,9 +25,11 @@
 %       ao_dx = average magnitude of x movements in AO
 %       ao_dy = average magnitude of y movements in AO
 %       ao_dz = average magnitude of z movements in AO
-tic
-visDur = readtable("vis_dur.csv");
 
+tic
+visDur = readtable("vis_dur.csv"); % read all measures
+
+% initalize lists
 av_dx = [];
 av_dy = [];
 av_dz = [];
@@ -38,8 +40,7 @@ ao_dz = [];
 % vis_dur.csv columns: 
 % dyadno,pptno,onset,duration,condition,event_type
 
-   
-
+% main loop, iterate through each measure, 
 for line = 1:height(visDur)
     if line == 1 || visDur.pptno(line) ~= visDur.pptno(line - 1)
         visDur.pptno(line)
